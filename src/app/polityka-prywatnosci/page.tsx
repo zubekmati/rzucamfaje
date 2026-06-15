@@ -22,12 +22,12 @@ const sections = [
   {
     id: "cel-przetwarzania",
     heading: "3. Cel i podstawa prawna przetwarzania",
-    content: `Dane osobowe przetwarzamy w celu:\n\n• Odpowiedzi na wiadomości przesłane za pomocą formularza kontaktowego (art. 6 ust. 1 lit. f RODO – uzasadniony interes administratora).\n• Analizy statystyk odwiedzin serwisu w celu jego ulepszania (art. 6 ust. 1 lit. f RODO).\n• Wysyłki newslettera, jeśli wyraziłeś/aś na to zgodę (art. 6 ust. 1 lit. a RODO).\n\nPodanie danych jest dobrowolne, jednak niezbędne do skorzystania z formularza kontaktowego lub zapisu na newsletter.`,
+    content: `Dane osobowe przetwarzamy wyłącznie w celu:\n\n• Odpowiedzi na wiadomości przesłane za pomocą formularza kontaktowego (art. 6 ust. 1 lit. f RODO – uzasadniony interes administratora).\n\nPodanie danych jest dobrowolne, jednak niezbędne do skorzystania z formularza kontaktowego.\n\nSerwis nie prowadzi analizy statystyk odwiedzin za pomocą zewnętrznych narzędzi i nie wysyła newslettera.`,
   },
   {
     id: "przechowywanie",
     heading: "4. Okres przechowywania danych",
-    content: `Dane przechowujemy przez okres niezbędny do realizacji celu, dla którego zostały zebrane:\n\n• Korespondencja e-mailowa – do 2 lat od ostatniego kontaktu.\n• Logi serwera (dane techniczne) – standardowo do 90 dni, zgodnie z polityką dostawcy hostingu.\n• Newsletter – do momentu wycofania zgody.`,
+    content: `Dane przechowujemy przez okres niezbędny do realizacji celu, dla którego zostały zebrane:\n\n• Korespondencja e-mailowa – do 2 lat od ostatniego kontaktu.\n• Logi serwera (dane techniczne) – standardowo do 90 dni, zgodnie z polityką dostawcy hostingu.`,
   },
   {
     id: "prawa",

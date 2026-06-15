@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const stats = [
-  { value: "42 000+", label: "osób rzuciło palenie" },
-  { value: "380+", label: "artykułów i poradników" },
-  { value: "7 lat", label: "wsparcia online" },
+  { value: "15", label: "artykułów i poradników" },
+  { value: "bezpłatny", label: "zawsze i dla każdego" },
+  { value: "2026", label: "rok startu" },
 ];
 
 export default function Hero() {
@@ -25,9 +25,8 @@ export default function Hero() {
 
           {/* Badge — visual only */}
           <p aria-hidden="true" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 text-white text-sm font-medium mb-6">
-            {/* motion-safe keeps pulse only for users without reduce-motion preference */}
             <span className="w-2 h-2 rounded-full bg-green-300 motion-safe:animate-pulse" />
-            #1 portal o rzucaniu palenia w Polsce
+            Portal o rzucaniu palenia po polsku
           </p>
 
           <h1
@@ -41,9 +40,9 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg sm:text-xl text-green-100 leading-relaxed mb-10 max-w-xl">
-            Dołącz do tysięcy Polaków, którzy odżyli po rzuceniu palenia.
-            Znajdziesz tu rzetelne wsparcie, porady ekspertów i motywację na
-            każdy trudny dzień.
+            Rzetelne informacje i motywacja dla osób, które chcą rzucić palenie.
+            Bez ściemy, bez moralizowania, bez porad medycznych –
+            tylko to, co naprawdę pomaga.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
