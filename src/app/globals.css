@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Class-based dark mode: dark: classes apply when .dark is on any ancestor */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  /* WCAG 2.1 AA: focus indicator visible on all backgrounds */
+  :focus-visible {
+    outline: 3px solid #15803d;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  .dark :focus-visible {
+    outline-color: #86efac;
+  }
+
+  /* Honor user's motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
