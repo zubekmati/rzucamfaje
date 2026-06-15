@@ -1,21 +1,23 @@
 import Link from "next/link";
 
-const footerNavGroups = [
+type FooterLink = { href: string; label: string; external?: boolean };
+
+const footerNavGroups: { heading: string; links: FooterLink[] }[] = [
   {
     heading: "Nawigacja",
     links: [
       { href: "/artykuly", label: "Artykuły" },
       { href: "/poradniki", label: "Poradniki" },
-      { href: "/kalkulator", label: "Kalkulator zdrowia" },
+      { href: "/kalkulator-zdrowia", label: "Kalkulator zdrowia" },
       { href: "/o-nas", label: "O nas" },
     ],
   },
   {
     heading: "Zasoby",
     links: [
-      { href: "/telefon-zaufania", label: "Telefon zaufania" },
-      { href: "/grupy-wsparcia", label: "Grupy wsparcia" },
-      { href: "/leczenie", label: "Leczenie NRT" },
+      { href: "https://jakrzucicpalenie.pl", label: "Telefon zaufania", external: true },
+      { href: "https://nio.gov.pl/poradnia-pomocy-palacym-38", label: "Grupy wsparcia", external: true },
+      { href: "https://www.nfz.gov.pl", label: "Leczenie NRT", external: true },
       { href: "/faq", label: "FAQ" },
     ],
   },
@@ -41,12 +43,12 @@ export default function Footer() {
             <Link
               href="/"
               aria-label="RzucamFaje.pl – strona główna"
-              className="inline-flex items-center gap-2 mb-4"
+              className="inline-flex items-center gap-2 mb-4 group"
             >
-              <span aria-hidden="true" className="flex items-center justify-center w-9 h-9 rounded-xl bg-green-700 text-white text-lg font-bold">
+              <span aria-hidden="true" className="flex items-center justify-center w-9 h-9 rounded-xl bg-green-700 text-white text-lg font-bold group-hover:bg-green-600 transition-colors">
                 🌿
               </span>
-              <span className="text-lg font-bold text-white">
+              <span className="text-lg font-bold text-white group-hover:text-green-400 transition-colors">
                 RzucamFaje<span className="text-green-400">.pl</span>
               </span>
             </Link>
@@ -91,12 +93,23 @@ export default function Footer() {
               <ul role="list" className="flex flex-col gap-2.5">
                 {group.links.map((link) => (
                   <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="text-sm text-gray-400 hover:text-green-400 transition-colors underline-offset-2 hover:underline"
-                    >
-                      {link.label}
-                    </Link>
+                    {link.external ? (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-gray-400 hover:text-green-400 transition-colors underline-offset-2 hover:underline"
+                      >
+                        {link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        href={link.href}
+                        className="text-sm text-gray-400 hover:text-green-400 transition-colors underline-offset-2 hover:underline"
+                      >
+                        {link.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>

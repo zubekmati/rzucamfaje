@@ -48,7 +48,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
             <Link
-              href="/zacznij"
+              href="/zacznij-dzis"
               className="inline-flex items-center justify-center px-7 py-3.5 rounded-xl bg-white text-green-900 font-bold text-base hover:bg-green-50 transition-colors shadow-lg shadow-green-950/30"
             >
               Zacznij teraz – bezpłatnie
