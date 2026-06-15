@@ -17,7 +17,7 @@ const sections = [
   {
     id: "dane-zbierane",
     heading: "2. Jakie dane zbieramy",
-    content: `Serwis może zbierać następujące dane:\n\n• Dane podane dobrowolnie w formularzu kontaktowym: imię lub pseudonim, adres e-mail, treść wiadomości.\n• Dane techniczne: adres IP, typ przeglądarki, system operacyjny, czas odwiedzin – zbierane automatycznie przez serwer lub narzędzia analityczne.\n• Dane z plików cookies – opisane szczegółowo w sekcji 6.`,
+    content: `Serwis może zbierać następujące dane:\n\n• Dane podane dobrowolnie w formularzu kontaktowym: imię lub pseudonim, adres e-mail, treść wiadomości.\n• Dane techniczne: adres IP, typ przeglądarki, system operacyjny, czas odwiedzin – zbierane automatycznie przez serwer hostingowy w standardowych logach serwera.\n• Dane z plików cookies – opisane szczegółowo w sekcji 6.\n\nSerwis nie korzysta z narzędzi analitycznych stron trzecich (np. Google Analytics).`,
   },
   {
     id: "cel-przetwarzania",
@@ -27,7 +27,7 @@ const sections = [
   {
     id: "przechowywanie",
     heading: "4. Okres przechowywania danych",
-    content: `Dane przechowujemy przez okres niezbędny do realizacji celu, dla którego zostały zebrane:\n\n• Korespondencja e-mailowa – do 2 lat od ostatniego kontaktu.\n• Dane analityczne – zgodnie z zasadami dostawcy narzędzi analitycznych (standardowo do 14 miesięcy).\n• Newsletter – do momentu wycofania zgody.`,
+    content: `Dane przechowujemy przez okres niezbędny do realizacji celu, dla którego zostały zebrane:\n\n• Korespondencja e-mailowa – do 2 lat od ostatniego kontaktu.\n• Logi serwera (dane techniczne) – standardowo do 90 dni, zgodnie z polityką dostawcy hostingu.\n• Newsletter – do momentu wycofania zgody.`,
   },
   {
     id: "prawa",
@@ -37,12 +37,12 @@ const sections = [
   {
     id: "cookies",
     heading: "6. Pliki cookies",
-    content: `Serwis używa plików cookies w następujących celach:\n\n• Niezbędne – zapewniają prawidłowe działanie serwisu (np. zapamiętanie wyboru motywu kolorystycznego).\n• Analityczne – pomagają nam zrozumieć, jak użytkownicy korzystają z serwisu (Google Analytics lub podobne narzędzie). Dane zbierane są w sposób zanonimizowany.\n\nMożesz zarządzać ustawieniami cookies w przeglądarce internetowej. Wyłączenie cookies może ograniczyć funkcjonalność serwisu.`,
+    content: `Serwis używa wyłącznie niezbędnych plików cookies:\n\n• Niezbędne – zapewniają prawidłowe działanie serwisu (np. zapamiętanie wyboru motywu kolorystycznego, zapamiętanie zgody na cookies).\n\nSerwis nie używa cookies analitycznych, reklamowych ani śledzących. Nie korzystamy z Google Analytics ani żadnych podobnych narzędzi stron trzecich.\n\nMożesz zarządzać ustawieniami cookies w przeglądarce internetowej. Wyłączenie cookies może ograniczyć funkcjonalność serwisu.`,
   },
   {
     id: "przekazywanie",
     heading: "7. Przekazywanie danych podmiotom trzecim",
-    content: `Twoje dane mogą być przekazywane wyłącznie:\n\n• Dostawcom usług hostingowych i technicznych niezbędnych do działania serwisu.\n• Dostawcom narzędzi analitycznych (np. Google LLC) – wyłącznie dane statystyczne, w sposób zanonimizowany.\n\nNie sprzedajemy danych osobowych podmiotom trzecim w celach marketingowych.`,
+    content: `Nie sprzedajemy ani nie udostępniamy danych użytkowników podmiotom trzecim. Nigdy.\n\nJedynym wyjątkiem jest dostawca usług hostingowych, który technicznie przetwarza dane w ramach świadczenia usługi (np. logi serwera). Dostawca ten jest zobowiązany do zachowania poufności i nie wykorzystuje tych danych we własnych celach.\n\nSerwis nie korzysta z żadnych sieci reklamowych, narzędzi śledzących ani platform analitycznych stron trzecich.`,
   },
   {
     id: "zmiany",
@@ -80,6 +80,16 @@ export default function PolitykaPrywatnosciPage() {
         </section>
 
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+          {/* Promise callout */}
+          <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-2xl p-5 mb-8">
+            <p className="text-sm font-bold text-green-900 dark:text-green-300 mb-1">
+              Nasza obietnica
+            </p>
+            <p className="text-sm text-green-800 dark:text-green-400 leading-relaxed">
+              Nie sprzedajemy ani nie udostępniamy danych użytkowników podmiotom trzecim. Nie używamy Google Analytics ani żadnych narzędzi śledzących. Cookies używamy wyłącznie do prawidłowego działania serwisu.
+            </p>
+          </div>
 
           {/* ToC */}
           <nav aria-label="Spis treści polityki prywatności" className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 p-5 mb-8 shadow-sm">
