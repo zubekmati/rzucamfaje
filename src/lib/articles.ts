@@ -305,6 +305,74 @@ const rawArticles: Article[] = [
       { type: "p", text: "Artykuł ma charakter informacyjny. Dane za lata 2024–2027 pochodzą z obowiązującej ustawy o podatku akcyzowym i prognoz Ministerstwa Finansów. Informacje o unijnej dyrektywie dotyczą projektu w trakcie negocjacji, nie przyjętego prawa. Scenariusze na lata 2028–2031 są symulacją własną redakcji, nie prognozą żadnej instytucji – rzeczywiste ceny mogą się od nich różnić." },
     ],
   },
+  {
+    slug: "gdzie-nie-mozna-palic-balkon-wentylacja-sasiedzi",
+    category: "Zdrowie",
+    title: "Gdzie naprawdę nie wolno palić? Pełna lista – i dym, który wraca przez wentylację",
+    excerpt: "Ustawa zakazuje palenia w konkretnych miejscach publicznych. Balkon to inna sprawa – a dym i tak często trafia do sąsiada przez wspólną wentylację. Sprawdzamy, jak to działa.",
+    readTime: "7 min",
+    date: "16 cze 2026",
+    dateISO: "2026-06-16",
+    emoji: "🚭",
+    content: [
+      { type: "p", text: "\"Nie ma zakazu, więc mogę\" – to najczęstszy błąd w myśleniu o paleniu w bloku. Prawo faktycznie zakazuje palenia w konkretnych miejscach. Ale tam, gdzie ustawa milczy, dym i tak potrafi dotrzeć do sąsiada – czasem przez drzwi balkonowe, czasem przez kratkę wentylacyjną w łazience, o której nikt nie myśli." },
+
+      { type: "h2", text: "Gdzie zakazuje to prawo" },
+      { type: "p", text: "Ustawa o ochronie zdrowia przed następstwami używania tytoniu wymienia konkretne miejsca, w których palenie jest zabronione. Za naruszenie grozi grzywna do 500 zł." },
+      { type: "ul", items: [
+        "Szpitale, przychodnie i inne miejsca udzielania świadczeń zdrowotnych",
+        "Szkoły, żłobki, przedszkola i inne placówki systemu oświaty",
+        "Tereny uczelni (kampusy)",
+        "Pomieszczenia zakładów pracy – poza wyznaczoną palarnią",
+        "Restauracje, bary, kluby – poza wyznaczoną palarnią",
+        "Dworce, stacje i środki transportu publicznego",
+        "Przystanki komunikacji publicznej",
+        "Obiekty sportowe (stadiony, hale)",
+        "Place zabaw i inne miejsca publiczne przeznaczone dla dzieci",
+        "Obiekty kultury i wypoczynku otwarte dla publiczności",
+      ]},
+
+      { type: "table", caption: "Status prawny palenia w wybranych miejscach.", headers: ["Miejsce", "Status", "Podstawa"], rows: [
+        ["Szkoła, przedszkole, szpital", "Zakaz", "Ustawa tytoniowa, art. 5"],
+        ["Restauracja, bar (poza palarnią)", "Zakaz", "Ustawa tytoniowa, art. 5"],
+        ["Przystanek, dworzec, pociąg", "Zakaz", "Ustawa tytoniowa, art. 5"],
+        ["Plac zabaw", "Zakaz", "Ustawa tytoniowa, art. 5"],
+        ["Klatka schodowa, korytarz w bloku", "Zwykle zakaz", "Regulamin wspólnoty/spółdzielni"],
+        ["Balkon własnego mieszkania", "Brak ustawowego zakazu", "Może ograniczyć wspólnota lub spór sąsiedzki (KC)"],
+      ]},
+
+      { type: "h2", text: "A co z balkonem?" },
+      { type: "p", text: "Tu robi się ciekawiej. Balkon przypisany do mieszkania jest prawnie częścią Twojego lokalu – ustawa tytoniowa go nie dotyczy. Możesz na nim palić. Ale to nie znaczy, że dym, który stamtąd wychodzi, nie ma żadnych konsekwencji prawnych." },
+      { type: "p", text: "Artykuł 144 Kodeksu cywilnego mówi, że właściciel nieruchomości powinien powstrzymać się od działań, które zakłócają korzystanie z nieruchomości sąsiednich \"ponad przeciętną miarę\". Uporczywy dym wpływający na balkon sąsiada – zwłaszcza jeśli ten ma małe dzieci, alergię albo po prostu chce usiąść na swoim tarasie – może być podstawą sporu sądowego." },
+      { type: "callout", variant: "warning", title: "Wspólnota może to ograniczyć", text: "Wspólnota mieszkaniowa lub spółdzielnia mogą wprowadzić w regulaminie zakaz palenia na balkonach. Taki zakaz egzekwuje administracja budynku. Można go zaskarżyć do sądu, ale do czasu wyroku obowiązuje." },
+
+      { type: "h2", text: "Dym, który nie pyta o zgodę – wentylacja w blokach" },
+      { type: "p", text: "To jest część, o której mało kto myśli, paląc w swojej łazience albo kuchni \"bo przecież nikomu nie przeszkadzam, okno zamknięte\". W wielu starszych blokach wentylacja łazienek i kuchni jest WSPÓLNA dla całego pionu mieszkań – jeden kanał na kilka, czasem kilkanaście lokali jeden nad drugim." },
+      { type: "p", text: "Dym papierosowy zachowuje się jak gaz. Przemieszcza się tam, gdzie jest niższe ciśnienie – nie tylko \"do góry\", jak czasem się myśli. Wystarczy, że ktoś w pionie włączy okap kuchenny albo wentylator w łazience, żeby powstało podciśnienie, które zasysa powietrze – razem z dymem – z innych mieszkań podłączonych do tego samego kanału." },
+      { type: "ul", items: [
+        "Palenie przy otwartym oknie w kuchni może ciągnąć dym do wspólnego kanału, nie tylko na zewnątrz",
+        "Palenie w łazience z włączonym wentylatorem działa jak pompa rozsyłająca dym po całym pionie",
+        "Okap kuchenny sąsiada \"ciągnie\" powietrze z Twojego mieszkania, jeśli kanały są połączone",
+        "Efekt: osoba, która nigdy nie pali, czuje dym papierosowy we własnej łazience",
+      ]},
+      { type: "callout", variant: "info", title: "To nie wina Twojej wentylacji", text: "Jeśli czujesz dym sąsiada w swojej łazience czy kuchni, to zwykle nie usterka – to konstrukcja starszych budynków, gdzie piony wentylacyjne były projektowane bez myśli o tym problemie. Zgłoszenie do administracji ma sens, ale rzadko da się to naprawić w 100%." },
+
+      { type: "h2", text: "Co możesz zrobić, jeśli dym sąsiada Cię dusi" },
+      { type: "ol", items: [
+        "Zacznij od rozmowy – wiele osób nie wie, że ich dym trafia do cudzego mieszkania przez wentylację",
+        "Zgłoś problem do administracji/zarządcy budynku – mogą sprawdzić szczelność kanałów i zamontować zawory ograniczające przepływ zwrotny",
+        "Sprawdź regulamin wspólnoty/spółdzielni – być może już zawiera zakaz palenia na balkonach i częściach wspólnych",
+        "Jeśli rozmowa i administracja nie pomagają – droga cywilna z art. 144 KC jest możliwa, ale to ostatni krok, nie pierwszy",
+      ]},
+
+      { type: "h2", text: "Jeśli to Ty palisz w bloku" },
+      { type: "p", text: "Nie piszemy tego, żeby kogoś zawstydzić. Jeśli palisz w mieszkaniu, kilka prostych zmian naprawdę ogranicza wpływ na sąsiadów – i to zanim ktoś zacznie pisać skargi do administracji." },
+      { type: "callout", variant: "tip", title: "Mała zmiana, duża różnica", text: "Pal przy otwartym oknie z wyłączonym wentylatorem/okapem (nie twórz podciśnienia), unikaj palenia w łazience podłączonej do wspólnego kanału, a na balkonie – zwróć uwagę, w którą stronę wiatr niesie dym względem sąsiednich balkonów." },
+
+      { type: "divider" },
+      { type: "p", text: "Artykuł ma charakter informacyjny i nie jest poradą prawną. Kwoty grzywien to ustawowe górne granice, nie gwarantowana kara w konkretnej sprawie. Regulaminy wspólnot/spółdzielni różnią się – sprawdź swój, zamiast zakładać, że zasady są takie same wszędzie." },
+    ],
+  },
 ];
 
 export const articles: Article[] = [...rawArticles].sort(
