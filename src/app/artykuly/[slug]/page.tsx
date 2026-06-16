@@ -98,6 +98,42 @@ function renderBlock(block: Block, index: number) {
           <p className={`text-sm leading-relaxed ${styles.body}`}>{block.text}</p>
         </aside>
       );
+    case "table":
+      return (
+        <figure key={index} className="my-6 -mx-4 sm:mx-0 overflow-x-auto">
+          <table className="w-full min-w-[480px] text-sm border-collapse">
+            <thead>
+              <tr className="border-b-2 border-gray-200 dark:border-gray-700">
+                {block.headers.map((h, i) => (
+                  <th
+                    key={i}
+                    scope="col"
+                    className="text-left font-bold text-gray-900 dark:text-white py-2 px-3 whitespace-nowrap"
+                  >
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {block.rows.map((row, ri) => (
+                <tr key={ri} className="border-b border-gray-100 dark:border-gray-800">
+                  {row.map((cell, ci) => (
+                    <td key={ci} className="text-gray-700 dark:text-gray-300 py-2 px-3 whitespace-nowrap">
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {block.caption && (
+            <figcaption className="text-xs text-gray-500 dark:text-gray-500 mt-2 px-3">
+              {block.caption}
+            </figcaption>
+          )}
+        </figure>
+      );
     case "divider":
       return <hr key={index} className="my-8 border-gray-200 dark:border-gray-700" />;
     default:

@@ -6,6 +6,7 @@ export type Block =
   | { type: "ol"; items: string[] }
   | { type: "quote"; text: string; author?: string }
   | { type: "callout"; variant: "tip" | "info" | "warning"; title: string; text: string }
+  | { type: "table"; caption?: string; headers: string[]; rows: string[][] }
   | { type: "divider" };
 
 export type Article = {
@@ -244,6 +245,64 @@ const rawArticles: Article[] = [
 
       { type: "divider" },
       { type: "p", text: "Artykuł ma charakter informacyjny i nie zastępuje porady lekarskiej. Tempo regeneracji organizmu jest indywidualne. Jeśli masz choroby przewlekłe lub przyjmujesz leki, skonsultuj rzucenie palenia z lekarzem." },
+    ],
+  },
+  {
+    slug: "papierosy-po-40-zl-za-5-lat-akcyza-symulacja",
+    category: "Zdrowie",
+    title: "Papierosy po 40 zł za 5 lat? Sprawdziliśmy, co mówią liczby",
+    excerpt: "Akcyza na papierosy w Polsce rośnie co roku do 2027 – to już zapisane w ustawie. A Unia Europejska szykuje jeszcze większą podwyżkę minimów. Zrobiliśmy symulację cen.",
+    readTime: "7 min",
+    date: "16 cze 2026",
+    dateISO: "2026-06-16",
+    emoji: "💸",
+    content: [
+      { type: "p", text: "Paczka za 20 złotych jeszcze niedawno brzmiała jak żart. Dziś to rzeczywistość, a kierunek jest tylko jeden – w górę. Sprawdziliśmy, co już jest zapisane w polskim prawie, co planuje Unia Europejska, i policzyliśmy, ile możesz płacić za papierosy za 5 lat. Spoiler: nawet konserwatywny scenariusz nie jest powodem do radości." },
+
+      { type: "h2", text: "To nie prognoza. To już prawo" },
+      { type: "p", text: "Polska ma ustawowo zapisany harmonogram podwyżek akcyzy na lata 2025–2027. To nie są spekulacje dziennikarzy – to konkretne stawki w znowelizowanej ustawie o podatku akcyzowym." },
+
+      { type: "table", caption: "Stawka akcyzy (część kwotowa) i prognozowana średnia cena paczki – dane Ministerstwa Finansów.", headers: ["Rok", "Akcyza (zł/1000 szt.)", "Zmiana r/r", "Śr. cena paczki"], rows: [
+        ["2024", "276 zł", "—", "ok. 18 zł"],
+        ["2025", "345 zł", "+25%", "20,82 zł"],
+        ["2026", "414 zł", "+20%", "23,85 zł"],
+        ["2027", "476,1 zł", "+15%", "26,54 zł"],
+      ]},
+
+      { type: "p", text: "Czyli: między 2024 a 2027 rokiem akcyza na papierosy wzrośnie o ponad 70%. Średnia cena paczki w tym samym czasie – o blisko 50%. To już się dzieje, niezależnie od tego, co zrobi Bruksela." },
+
+      { type: "h2", text: "Unia Europejska chce poprzeczki znacznie wyżej" },
+      { type: "p", text: "W lipcu 2025 roku Komisja Europejska przedstawiła projekt rewizji dyrektywy o opodatkowaniu wyrobów tytoniowych. I to nie jest kosmetyczna zmiana." },
+      { type: "ul", items: [
+        "Obecne unijne minimum: 60% średniej ceny detalicznej oraz 90 euro za 1000 sztuk",
+        "Propozycja: 63% średniej ceny detalicznej oraz 215 euro za 1000 sztuk – to wzrost minimum o ok. 139%",
+        "Planowany mechanizm automatycznej indeksacji co 3 lata wg inflacji",
+        "Rozszerzenie na e-papierosy, podgrzewacze tytoniu i woreczki nikotynowe",
+        "Planowane wejście w życie: 2028 – ale to wciąż projekt, nie przyjęte prawo",
+      ]},
+      { type: "callout", variant: "warning", title: "To jeszcze nie jest prawo", text: "Projekt rewizji dyrektywy jest w 2026 roku wciąż negocjowany w Radzie UE. Może zostać przyjęty, zmieniony, opóźniony albo odrzucony. Traktuj to jako kierunek, nie pewnik." },
+      { type: "p", text: "Dla krajów z niską akcyzą (część Europy Wschodniej i Południowej) to oznaczałoby skok dosłownie z dnia na dzień. Polska już dziś planuje stawki bliskie nowemu unijnemu minimum – ale jeśli dyrektywa wejdzie w życie z automatyczną indeksacją, presja na dalsze podwyżki po 2027 roku nie zniknie." },
+
+      { type: "h2", text: "Symulacja: ile za 5 lat?" },
+      { type: "p", text: "Tu zaczyna się nasza własna kalkulacja – nie rządowa prognoza, nie dane UE. Po 2027 roku Polska nie ma jeszcze zapisanego w ustawie harmonogramu. Policzyliśmy trzy scenariusze, zakładając różne tempo dalszych podwyżek." },
+
+      { type: "table", caption: "Symulacja własna RzucamFaje.pl, oparta na tempie podwyżek z lat 2025–2027. Nie jest to prognoza rządowa ani unijna.", headers: ["Rok", "Konserwatywny (+6%/rok)", "Kontynuacja trendu (+13%/rok)", "Pod presją UE (+18%/rok)"], rows: [
+        ["2027 (znane)", "26,54 zł", "26,54 zł", "26,54 zł"],
+        ["2028", "28,13 zł", "29,97 zł", "31,32 zł"],
+        ["2029", "29,82 zł", "33,84 zł", "36,96 zł"],
+        ["2030", "31,61 zł", "38,20 zł", "43,61 zł"],
+        ["2031", "33,51 zł", "43,12 zł", "51,46 zł"],
+      ]},
+
+      { type: "callout", variant: "info", title: "Skąd te scenariusze", text: "Konserwatywny: dwa razy wolniej niż tempo z lat 2025–2027. Kontynuacja trendu: to samo tempo, co już zapisano w ustawie. Presja UE: szybszy wzrost, jeśli rewizja unijnej dyrektywy wejdzie w życie i wymusi dalsze podwyżki po 2027 roku." },
+      { type: "p", text: "Nawet w najbardziej ostrożnym scenariuszu paczka w 2031 roku kosztuje ponad 33 złote – więcej niż dwukrotność dzisiejszej ceny z 2024 roku. W scenariuszu \"pod presją UE\" przekraczamy 50 złotych. Tytułowe \"40 złotych za 5 lat\" leży gdzieś pomiędzy – realny scenariusz, nie clickbait bez podstaw." },
+
+      { type: "h2", text: "Co to znaczy dla Ciebie" },
+      { type: "p", text: "Paczka dziennie przy cenie 26,54 zł (już 2027 rok) to ponad 9 600 zł rocznie. Przy 40 zł za paczkę – ponad 14 600 zł rocznie. Czekanie z rzuceniem palenia na \"lepszy moment\" nie ma sensu finansowego – jedyny pewny trend to wzrost cen, nie spadek." },
+      { type: "callout", variant: "tip", title: "Licznik działa od razu", text: "Nie musisz czekać na żadną ustawę. Każdy dzień bez papierosa to realne pieniądze już dziś, niezależnie od tego, co zrobi Sejm albo Bruksela w kolejnych latach." },
+
+      { type: "divider" },
+      { type: "p", text: "Artykuł ma charakter informacyjny. Dane za lata 2024–2027 pochodzą z obowiązującej ustawy o podatku akcyzowym i prognoz Ministerstwa Finansów. Informacje o unijnej dyrektywie dotyczą projektu w trakcie negocjacji, nie przyjętego prawa. Scenariusze na lata 2028–2031 są symulacją własną redakcji, nie prognozą żadnej instytucji – rzeczywiste ceny mogą się od nich różnić." },
     ],
   },
 ];
