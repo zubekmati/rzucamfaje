@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { articles } from "@/lib/articles";
 
 const stats = [
-  { value: "15", label: "artykułów i poradników" },
+  { value: String(articles.length), label: "artykułów i poradników" },
   { value: "bezpłatny", label: "zawsze i dla każdego" },
   { value: "2026", label: "rok startu" },
 ];
