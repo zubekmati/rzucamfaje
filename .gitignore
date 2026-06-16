@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# lokalne archiwum agentów (nie publikujemy starych/testowych treści)
+/agents/archive/
