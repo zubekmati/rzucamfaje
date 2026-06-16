@@ -382,38 +382,58 @@ export const articles: Article[] = [
     ],
   },
   {
-    slug: "pluca-po-rzuceniu-palenia-dzien-po-dniu",
+    slug: "co-sie-dzieje-z-twoim-cialem-po-ostatnim-papierosie",
     category: "Zdrowie",
-    title: "Co dzieje się z Twoimi płucami – dzień po dniu",
-    excerpt: "Po 20 minutach ciśnienie spada. Po 8 godzinach tlenek węgla znika z krwi. Po roku ryzyko zawału zmniejsza się o połowę. Sprawdź pełną listę.",
-    readTime: "7 min",
-    date: "15 maj 2026",
-    dateISO: "2026-05-15",
-    emoji: "🫁",
+    title: "Co się dzieje z Twoim ciałem 24 godziny po ostatnim papierosie",
+    excerpt: "Zegar zaczyna się odliczać od pierwszych 20 minut. Oś czasu regeneracji organizmu – krok po kroku, od godziny zero do roku bez palenia.",
+    readTime: "6 min",
+    date: "16 cze 2026",
+    dateISO: "2026-06-16",
+    emoji: "⏱️",
     content: [
-      { type: "p", text: "Ciało ludzkie jest zdumiewające. Przez lata mu szkodziłem i przez lata się naprawiało – cichutko, bez fanfar, dzień po dniu. Oto co robi, kiedy dajesz mu szansę." },
-      { type: "h2", text: "Pierwsze godziny" },
-      { type: "ul", items: [
-        "20 minut: ciśnienie krwi i tętno wracają do normy",
-        "8 godzin: poziom tlenku węgla w krwi spada o połowę",
-        "24 godziny: tlenek węgla całkowicie znika z organizmu",
-        "48 godzin: receptory węchu i smaku zaczynają się regenerować",
-      ]},
-      { type: "h2", text: "Pierwszy tydzień i miesiąc" },
-      { type: "ul", items: [
-        "3 dni: nikotyna opuszcza organizm – szczyt objawów odstawiennych",
-        "2–3 tygodnie: krążenie się poprawia, chodzenie po schodach przestaje być wyczynem",
-        "1 miesiąc: rzęski w oskrzelach zaczynają działać – możesz więcej odkrztuszać, to dobry znak",
-      ]},
-      { type: "h2", text: "Rok i więcej" },
-      { type: "ul", items: [
-        "3–9 miesięcy: kaszel i duszności znacznie się zmniejszają",
-        "1 rok: ryzyko choroby wieńcowej spada do połowy ryzyka palacza",
-        "5 lat: ryzyko udaru mózgu jak u osoby niepalącej",
-        "10 lat: ryzyko raka płuca spada o połowę",
-        "15 lat: ryzyko chorób serca jak u osoby, która nigdy nie paliła",
-      ]},
-      { type: "callout", variant: "info", title: "Skąd te dane?", text: "To nie są marketingowe obietnice – to wyniki badań klinicznych zbieranych przez dziesięciolecia, m.in. przez American Heart Association i WHO." },
+      { type: "p", text: "Dobra wiadomość jest taka, że Twoje ciało nie czeka. Już w momencie, gdy gasisz ostatniego papierosa, zaczyna się proces naprawy – i to szybciej, niż myślisz. Nie potrzebujesz miesięcy, żeby poczuć pierwsze efekty. Wystarczy kilkadziesiąt minut." },
+
+      { type: "h2", text: "Pierwsza doba: organizm odzyskuje oddech" },
+
+      { type: "h3", text: "20 minut" },
+      { type: "p", text: "Tętno i ciśnienie krwi, podniesione przez nikotynę, zaczynają wracać do normy. Serce nie musi już pracować na zwiększonych obrotach tylko po to, żeby Cię utrzymać na nogach." },
+
+      { type: "h3", text: "12 godzin" },
+      { type: "p", text: "Poziom tlenku węgla we krwi spada do normalnego poziomu. To ten gaz z dymu, który zajmuje miejsce, gdzie powinien być tlen. Krócej: krew znowu zaczyna nosić tlen tak, jak powinna." },
+
+      { type: "h3", text: "24 godziny" },
+      { type: "p", text: "Ryzyko zawału serca zaczyna spadać. Nie skacze od razu na zero – to proces, który się rozkręca – ale kierunek jest już ustalony, i jest dobry." },
+
+      { type: "callout", variant: "warning", title: "To może być najtrudniejszy dzień", text: "Pierwsza doba bywa najgorsza psychicznie, nie fizycznie. Głód nikotynowy, rozdrażnienie, problemy z koncentracją – to normalne objawy odstawienia, nie znak, że coś idzie nie tak. Mijają." },
+
+      { type: "h2", text: "Pierwsze dni: zmysły wracają" },
+
+      { type: "h3", text: "48 godzin" },
+      { type: "p", text: "Zakończenia nerwowe odpowiedzialne za węch i smak zaczynają się regenerować. Jedzenie zaczyna pachnieć i smakować intensywniej – wielu osobom kawa albo obiad smakują inaczej niż pamiętają." },
+
+      { type: "h3", text: "48–72 godziny" },
+      { type: "p", text: "To zwykle szczyt objawów odstawienia – i jednocześnie moment, w którym nikotyna jest już praktycznie całkowicie wydalona z organizmu. Jeśli przetrwałeś te trzy dni, najgorsze pod względem fizycznego głodu masz za sobą. Dalej robi się łatwiej." },
+
+      { type: "h2", text: "Tygodnie i miesiące: płuca i krążenie wracają do formy" },
+
+      { type: "h3", text: "2 tygodnie – 3 miesiące" },
+      { type: "p", text: "Krążenie krwi poprawia się, a funkcja płuc może wzrosnąć nawet o około 30%. W praktyce: schody, które wcześniej kończyły się zadyszką, przestają być problemem." },
+
+      { type: "h3", text: "1–9 miesięcy" },
+      { type: "p", text: "Kaszel i zadyszka spadają. Drobne włoski w płucach (rzęski), które czyszczą drogi oddechowe, odbudowują swoją funkcję. Efekt: rzadsze infekcje, mniej śluzu, łatwiejsze oddychanie." },
+
+      { type: "callout", variant: "info", title: "Dlaczego tempo bywa różne", text: "Jak szybko widać efekty zależy od tego, jak długo i ile paliłeś/paliłaś, oraz od ogólnego stanu zdrowia. Te ramy czasowe to orientacyjny, ogólnie przyjęty wzorzec – nie sztywny harmonogram dla każdego." },
+
+      { type: "h2", text: "Rok później: liczby, które mają znaczenie" },
+      { type: "p", text: "Po roku bez papierosa ryzyko choroby niedokrwiennej serca spada o około połowę w porównaniu do osoby, która wciąż pali. To jedna z najczęściej cytowanych liczb w zdrowiu publicznym – i jeden z najlepszych argumentów, żeby wytrwać dłużej niż pierwszy tydzień." },
+
+      { type: "h2", text: "Co to znaczy dla Ciebie" },
+      { type: "p", text: "Nie musisz czekać rok, żeby poczuć różnicę. Pierwsze zmiany – tętno, oddech, smak jedzenia – przychodzą w ciągu pierwszej doby. Najtrudniejszy jest początek. Po nim organizm sam zaczyna robić swoją część roboty." },
+
+      { type: "callout", variant: "tip", title: "Jeśli czujesz, że to za dużo na raz", text: "Nie musisz przechodzić przez to sam. Lekarz rodzinny może wypisać refundowaną terapię NRT (plastry, gumy, tabletki), która łagodzi głód nikotynowy. To nie oszukiwanie – to narzędzie." },
+
+      { type: "divider" },
+      { type: "p", text: "Artykuł ma charakter informacyjny i nie zastępuje porady lekarskiej. Tempo regeneracji organizmu jest indywidualne. Jeśli masz choroby przewlekłe lub przyjmujesz leki, skonsultuj rzucenie palenia z lekarzem." },
     ],
   },
   {
