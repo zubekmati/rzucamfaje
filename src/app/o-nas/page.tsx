@@ -96,9 +96,9 @@ export default function ONasPage() {
                 a co naprawdę pomaga.
               </p>
               <p>
-                RzucamFaje.pl powstał jako odpowiedź na tę lukę. Dziś pomagamy tysiącom osób miesięcznie
-                – i każdego dnia dostajemy wiadomości od ludzi, którzy mówią, że to właśnie tu znaleźli
-                wsparcie, które zadziałało.
+                RzucamFaje.pl powstał jako odpowiedź na tę lukę – ruszyliśmy w czerwcu 2026. Jesteśmy
+                na początku drogi, ale każdy artykuł piszemy tak, jak sami chcielibyśmy go przeczytać
+                kilka lat temu.
               </p>
             </div>
           </section>
@@ -149,23 +149,15 @@ export default function ONasPage() {
             </ul>
           </section>
 
-          {/* Stats */}
-          <section aria-labelledby="stats-heading" className="bg-green-50 dark:bg-green-900/20 rounded-2xl border border-green-100 dark:border-green-800 p-8">
-            <h2 id="stats-heading" className="text-xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-              RzucamFaje.pl w liczbach
+          {/* Mission */}
+          <section aria-labelledby="mission-heading" className="bg-green-50 dark:bg-green-900/20 rounded-2xl border border-green-100 dark:border-green-800 p-8">
+            <h2 id="mission-heading" className="text-xl font-bold text-gray-900 dark:text-white mb-3 text-center">
+              Nasza misja
             </h2>
-            <dl className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
-              {[
-                { dt: "Artykułów i poradników", dd: "15+" },
-                { dt: "Czytelników miesięcznie", dd: "10 000+" },
-                { dt: "Rok założenia", dd: "2023" },
-              ].map((stat) => (
-                <div key={stat.dt}>
-                  <dd className="text-3xl font-extrabold text-green-700 dark:text-green-400 mb-1">{stat.dd}</dd>
-                  <dt className="text-sm text-gray-600 dark:text-gray-400">{stat.dt}</dt>
-                </div>
-              ))}
-            </dl>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-center max-w-xl mx-auto">
+              Ruszyliśmy w czerwcu 2026. Jesteśmy na początku drogi – ale każdy artykuł piszemy
+              z głową, bez lania wody.
+            </p>
           </section>
 
           {/* CTA */}
