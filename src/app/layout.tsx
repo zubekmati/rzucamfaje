@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "RzucamFaje.pl – Rzuć palenie i odzyskaj życie",
   description:
     "Portal o rzucaniu palenia po polsku. Artykuły, porady i wsparcie dla osób, które chcą żyć zdrowo bez papierosów.",
+  verification: {
+    google: "jmI9j7ioYLEpUPY-ovy7GjYazHHiePTVLRvaAn7Vftw",
+  },
 };
 
 export default function RootLayout({
