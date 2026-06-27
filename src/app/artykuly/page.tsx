@@ -7,6 +7,7 @@ import ArticlesClient from "@/components/ArticlesClient";
 
 export const metadata: Metadata = {
   title: "Artykuły – RzucamFaje.pl",
+  alternates: { canonical: "/artykuly" },
   description:
     "Wszystkie artykuły o rzucaniu palenia. Porady, poradniki, historie sukcesu i sprawdzone techniki – pisane przez kogoś, kto sam przez to przechodził.",
 };

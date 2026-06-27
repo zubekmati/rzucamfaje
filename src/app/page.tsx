@@ -1,8 +1,13 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import SkipLink from "@/components/SkipLink";
 import Hero from "@/components/Hero";
 import ArticleGrid from "@/components/ArticleGrid";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   return (

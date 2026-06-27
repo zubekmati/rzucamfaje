@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "O nas – RzucamFaje.pl",
+  alternates: { canonical: "/o-nas" },
   description:
     "Kim jesteśmy i dlaczego powstał RzucamFaje.pl. Historia portalu i misja, którą realizujemy każdego dnia.",
 };

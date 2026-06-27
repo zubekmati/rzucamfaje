@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Zacznij dziś – RzucamFaje.pl",
+  alternates: { canonical: "/zacznij-dzis" },
   description:
     "Chcesz rzucić palenie, ale nie wiesz od czego zacząć? Oto konkretny plan krok po kroku – sprawdzony, bez moralizowania.",
 };

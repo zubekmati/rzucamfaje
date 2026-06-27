@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rzucamfaje.pl"),
   title: "RzucamFaje.pl – Rzuć palenie i odzyskaj życie",
   description:
     "Portal o rzucaniu palenia po polsku. Artykuły, porady i wsparcie dla osób, które chcą żyć zdrowo bez papierosów.",

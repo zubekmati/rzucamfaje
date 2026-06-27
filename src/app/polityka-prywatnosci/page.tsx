@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Polityka prywatności – RzucamFaje.pl",
+  alternates: { canonical: "/polityka-prywatnosci" },
   description: "Polityka prywatności serwisu RzucamFaje.pl – zasady przetwarzania danych osobowych i plików cookies.",
 };
 

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Regulamin – RzucamFaje.pl",
+  alternates: { canonical: "/regulamin" },
   description: "Regulamin serwisu RzucamFaje.pl – zasady korzystania z portalu, prawa i obowiązki użytkowników.",
 };
 

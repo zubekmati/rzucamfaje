@@ -7,6 +7,7 @@ import { articles, CATEGORY_COLORS } from "@/lib/articles";
 
 export const metadata: Metadata = {
   title: "Poradniki – RzucamFaje.pl",
+  alternates: { canonical: "/poradniki" },
   description:
     "Praktyczne poradniki o rzucaniu palenia. Krok po kroku przez najtrudniejsze momenty – pisane przez kogoś, kto sam przez to przechodził.",
 };

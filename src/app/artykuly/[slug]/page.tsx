@@ -23,6 +23,7 @@ export async function generateMetadata({
   return {
     title: `${article.title} – RzucamFaje.pl`,
     description: article.excerpt,
+    alternates: { canonical: `/artykuly/${slug}` },
   };
 }
 
@@ -157,6 +158,19 @@ function renderBlock(block: Block, index: number) {
 
 /* ─── Schema.org JSON-LD ──────────────────────────────────── */
 
+function BreadcrumbJsonLd({ article }: { article: { slug: string; title: string } }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://rzucamfaje.pl" },
+      { "@type": "ListItem", position: 2, name: "Artykuły", item: "https://rzucamfaje.pl/artykuly" },
+      { "@type": "ListItem", position: 3, name: article.title, item: `https://rzucamfaje.pl/artykuly/${article.slug}` },
+    ],
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
 function ArticleJsonLd({ article }: { article: { slug: string; title: string; excerpt: string; dateISO: string } }) {
   const schema = {
     "@context": "https://schema.org",
@@ -197,6 +211,7 @@ export default async function ArticlePage({
   return (
     <>
       <ArticleJsonLd article={article} />
+      <BreadcrumbJsonLd article={article} />
       <SkipLink />
       <Header />
 
