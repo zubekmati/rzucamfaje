@@ -1528,6 +1528,11 @@ const rawArticles: Article[] = [
       { type: "h3", text: "Bibułka papierosowa" },
       { type: "p", text: "Cienki papier z celulozy, często z dodatkiem soli potasowych, które regulują szybkość i równomierność spalania. Traktowany jest tak, żeby papieros gasił się podczas palenia wolniej — co sprzyja głębszemu wciąganiu dymu. Rozkłada się stosunkowo szybko (kilka tygodni), ale jest to papier impregnowany chemicznie, nie zwykły." },
 
+      { type: "h3", text: "Samogasnący papieros — co tu zmieniła Unia Europejska" },
+      { type: "p", text: "Od 2011 roku wszystkie papierosy sprzedawane w Unii Europejskiej muszą spełniać normy samogaśnięcia. Wymóg wprowadzono głównie z powodów bezpieczeństwa pożarowego — porzucony, tlący się papieros był jedną z głównych przyczyn pożarów mieszkań i lasów. Polska, podobnie jak pozostałe kraje UE, jest objęta tym obowiązkiem." },
+      { type: "p", text: "Jak to działa? Nie przez zmianę składu tytoniu, ale przez modyfikację bibułki. Na papierze papierosowym nanoszone są dwa wąskie pierścienie z papieru o znacznie niższej przepuszczalności powietrza — zazwyczaj w odległości ok. 30 mm i 60 mm od filtra. Gdy tlący się tytoń dochodzi do takiego pierścienia i nikt nie ciągnie dymu, dostęp tlenu jest ograniczony i papieros gaśnie sam z siebie." },
+      { type: "callout", variant: "info", title: "Czy widać te pierścienie na papierosie?", text: "Tak — na niewypalonym papierosie można dostrzec dwa lekko różniące się fakturą pasy na bibułce. Większość palaczy nigdy tego nie zauważa, ale jeśli spojrzysz uważnie wzdłuż papierosa pod dobrym światłem, paski są widoczne gołym okiem." },
+
       { type: "h3", text: "Filtr — to nie bawełna, to plastik" },
       { type: "p", text: "To jeden z najpowszechniejszych mitów: że filtr papierosowy jest z bawełny. Nie jest. Standardowy filtr to włókna octanu celulozy — tworzywa sztucznego produkowanego z celulozy, ale w procesie syntezy chemicznej. Filtr jest plastikowy." },
       { type: "p", text: "Jeden filtr zawiera tysiące mikroskopijnych włókien octanu celulozy sklejonych ze sobą środkiem plastyfikującym (tri-acetyną). W glebie i wodzie te włókna rozpadają się na coraz mniejsze mikrowłókna — ale nie znikają." },
