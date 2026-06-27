@@ -1069,6 +1069,224 @@ const rawArticles: Article[] = [
       { type: "p", text: "Artykuł ma charakter informacyjny i nie jest poradą prawną. Kwoty grzywien to ustawowe górne granice, nie gwarantowana kara w konkretnej sprawie. Regulaminy wspólnot/spółdzielni różnią się – sprawdź swój, zamiast zakładać, że zasady są takie same wszędzie." },
     ],
   },
+  {
+    slug: "jak-rzucic-palenie-przewodnik",
+    category: "Poradnik",
+    title: "Jak rzucić palenie — kompletny przewodnik krok po kroku",
+    excerpt: "Chcesz rzucić palenie? Ten przewodnik krok po kroku przeprowadzi Cię przez datę zero, pierwsze 72 godziny i tygodnie bez papierosa.",
+    readTime: "8 min",
+    date: "27 cze 2026",
+    dateISO: "2026-06-27",
+    emoji: "🚭",
+    content: [
+      { type: "p", text: "Rzucenie palenia to jedna z najlepszych decyzji, jaką możesz podjąć. I jedno z najtrudniejszych wyzwań — przynajmniej na początku. Ten przewodnik daje Ci konkretny plan, nie listę zakazów." },
+
+      { type: "h2", text: "Dlaczego rzucenie palenia jest trudne" },
+      { type: "p", text: "Nikotyna uzależnia szybko i silnie. Mechanizm jest prosty: wypalasz papierosa, w mózgu uwalnia się dopamina — czujesz się lepiej. Kilkanaście minut później poziom spada i pojawia się głód. Ta pętla trwa latami." },
+      { type: "p", text: "Do tego dochodzi nawyk. Papieros po kawie. Przerwa z kolegami z pracy. Stres po powrocie do domu. Masz nie jedno uzależnienie, ale dziesiątki małych rytuałów wbudowanych w codzienność — każdy z nich to osobny wyzwalacz." },
+      { type: "callout", variant: "info", title: "Ile prób potrzeba?", text: "Większość palaczy, którym udało się skutecznie rzucić, próbowała wiele razy zanim im się udało na stałe. Nieudana próba to nie porażka — to informacja o tym, co nie działa dla Ciebie. Każda próba buduje doświadczenie i zwiększa szansę w kolejnej." },
+
+      { type: "h2", text: "Krok 1: Wyznacz datę zero" },
+      { type: "p", text: "Nie 'rzucę kiedyś' — konkretna data w kalendarzu. Najlepiej za 1-2 tygodnie. Tyle czasu wystarczy żeby się przygotować bez zbędnego odkładania." },
+      { type: "p", text: "Psychologicznie: unikaj pierwszego dnia nowego roku i poniedziałku. Za dużo oczekiwań, za duże ryzyko rozczarowania. Zwykły wtorek lub środa, bez szczególnie stresującego tygodnia — to najlepszy start." },
+      { type: "callout", variant: "tip", title: "Data w kalendarzu", text: "Zapisz datę w telefonie z przypomnieniem. Powiedz o niej przynajmniej jednej bliskiej osobie — nie dla chwały, ale dla prostego mechanizmu odpowiedzialności. Badania pokazują, że publiczna deklaracja zwiększa prawdopodobieństwo dotrzymania." },
+
+      { type: "h2", text: "Krok 2: Wybierz metodę" },
+      { type: "p", text: "Masz kilka sprawdzonych ścieżek. Żadna nie jest jedyna słuszna — liczy się to, co pasuje do Ciebie." },
+
+      { type: "h3", text: "Zimny indyk — z dnia na dzień" },
+      { type: "p", text: "Rzucasz całkowicie w wyznaczonym dniu. Żadnych stopniowych ograniczeń, żadnego 'jeszcze jeden'. Trudne przez pierwsze 72 godziny — ale część osób właśnie tej jasnej granicy potrzebuje, żeby nie wracać." },
+
+      { type: "h3", text: "NRT — nikotynowa terapia zastępcza" },
+      { type: "p", text: "Plastry, gumy do żucia, tabletki do ssania — dostarczają nikotynę bez dymu i toksyn. Według przeglądu Cochrane (2018) zwiększają szansę na sukces o 50-70% w porównaniu do rzucania bez żadnego wsparcia. Dostępne bez recepty w każdej aptece." },
+
+      { type: "h3", text: "Leki na receptę" },
+      { type: "p", text: "Wareniklina (Champix) i bupropion to najskuteczniejsze leki farmakologiczne. Wareniklina daje ok. 30% skuteczności przy 12-miesięcznej abstynencji (Cochrane, 2016) — wynik znacznie lepszy niż przy braku wsparcia. Wymagają recepty i rozmowy z lekarzem." },
+      { type: "related", slug: "metody-rzucania-palenia-co-dziala", title: "Które metody rzucania palenia naprawdę działają? Przegląd badań" },
+
+      { type: "h2", text: "Krok 3: Przygotuj otoczenie" },
+      { type: "p", text: "Kilka dni przed datą zero zrób porządki:" },
+      { type: "ul", items: [
+        "Wyrzuć wszystkie papierosy, zapalniczki i popielniczki — z domu, z samochodu, z biurka",
+        "Powiedz bliskim o swojej dacie — nie dla pochwalenia się, ale żeby mieli świadomość",
+        "Zidentyfikuj swoje wyzwalacze: kawa? alkohol? konkretna godzina? konkretna osoba?",
+        "Przygotuj zamienniki: gumy, twarde cukierki, słomki, krótkie spacery, przysiady",
+        "Ogranicz alkohol przez pierwsze tygodnie — mocno obniża czujność i kontrolę",
+      ]},
+
+      { type: "h2", text: "Krok 4: Pierwsze 72 godziny" },
+      { type: "p", text: "To najtrudniejszy moment całego procesu. Nikotyna opuszcza organizm w ciągu 48-72 godzin od ostatniego papierosa. W tym czasie możesz odczuwać:" },
+      { type: "ul", items: [
+        "Silny głód nikotynowy — szczytuje i mija w ciągu kilku minut",
+        "Drażliwość, niepokój, trudności z koncentracją",
+        "Problemy ze snem",
+        "Zwiększony apetyt",
+        "Bóle głowy lub uczucie mgły w głowie",
+      ]},
+      { type: "callout", variant: "tip", title: "Technika 5 minut", text: "Każdy głód nikotynowy trwa kilka minut, a potem opada sam. Kiedy poczujesz potrzebę — pij wodę, rób przysiady, wyjdź na szybki spacer. Głód minie. Zawsze mija — niezależnie od tego, co zrobisz. Zadanie polega na tym, żeby nie palić przez te kilka minut." },
+      { type: "p", text: "Po 72 godzinach jest wyraźnie lepiej. Najgorsze fizycznie masz wtedy za sobą." },
+
+      { type: "h2", text: "Krok 5: Pierwsze tygodnie — psychiczne wyzwalacze" },
+      { type: "p", text: "Fizyczne objawy odstawienia mijają w 2-4 tygodnie. Dłużej zostają sytuacje, które kojarzyłeś z paleniem: kawa, przerwa w pracy, weekend ze znajomymi, nudne spotkanie." },
+      { type: "p", text: "Nie musisz ich unikać na zawsze — ale przez pierwsze 2-3 tygodnie warto ograniczyć szczególnie ryzykowne sytuacje. Alkohol zwłaszcza: każda osoba, która wróciła do palenia po 'prawie udanej próbie', może wskazać konkretny wieczór przy piwie." },
+      { type: "callout", variant: "warning", title: "Pułapka jednego papierosa", text: "'Tylko jeden przy piwie' to najczęstsza przyczyna powrotu do palenia. Jeden papieros uruchamia ten sam mechanizm nikotynowy, który pamiętasz sprzed rzucenia. Dla osoby uzależnionej od nikotyny nie ma bezpiecznego 'tylko jeden'." },
+      { type: "related", slug: "glod-nikotynowy-co-to-jest-jak-przetrwac", title: "Głód nikotynowy — co to jest, ile trwa i jak przetrwać najtrudniejsze chwile" },
+
+      { type: "h2", text: "Gdzie szukać pomocy" },
+      { type: "p", text: "Jeśli kolejna samodzielna próba nie przynosi efektu — czas poprosić o pomoc. W Polsce masz do dyspozycji bezpłatne opcje:" },
+      { type: "ul", items: [
+        "Lekarz rodzinny — może wypisać NRT lub skierowanie na poradnię w ramach NFZ",
+        "Telefoniczna Poradnia Antynikotynowa: 801 108 108 — bezpłatna, czynna w dni robocze",
+        "Poradnie leczenia uzależnień — w każdym większym mieście",
+        "Aplikacje mobilne: Smoke Free, QuitNow!, Kwit — śledzą czas bez papierosa i pomagają przetrwać głody",
+      ]},
+      { type: "related", slug: "gdzie-szukac-pomocy-rzucenie-palenia", title: "Gdzie szukać pomocy przy rzucaniu palenia w Polsce — bezpłatne linie i poradnie" },
+
+      { type: "h2", text: "Jak długo trwa cały proces?" },
+      { type: "p", text: "Fizyczne uzależnienie od nikotyny mija w 2-4 tygodnie. Psychiczne przywiązanie do nawyku — od kilku miesięcy do roku." },
+      { type: "p", text: "Ale ciało zaczyna się naprawiać natychmiast. Po 24 godzinach bez papierosa spada poziom tlenku węgla we krwi. Po roku ryzyko zawału maleje o połowę w porównaniu z aktywnym palaczem. Po 10 latach ryzyko raka płuca spada do ok. połowy ryzyka osoby palącej." },
+      { type: "p", text: "Każdy dzień bez papierosa to dzień, w którym organizm wraca do siebie — a głody są słabsze niż dzień wcześniej." },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i nie zastępuje porady lekarskiej. Jeśli masz pytania dotyczące uzależnienia od nikotyny lub leków wspomagających rzucenie palenia, skonsultuj się z lekarzem rodzinnym." },
+    ],
+  },
+  {
+    slug: "objawy-odstawienia-nikotyny",
+    category: "Poradnik",
+    title: "Objawy odstawienia nikotyny — co czuć, kiedy szczyt i kiedy mija",
+    excerpt: "Drażliwość, głód, problemy ze snem — odstawienie nikotyny ma konkretny przebieg. Wiesz czego się spodziewać, łatwiej przetrwać. Oś czasu i praktyczne porady.",
+    readTime: "6 min",
+    date: "27 cze 2026",
+    dateISO: "2026-06-27",
+    emoji: "🌡️",
+    content: [
+      { type: "p", text: "Pierwsze dni po rzuceniu palenia bywają ciężkie. Ale nie dlatego, że jesteś słaby — tylko dlatego, że Twój mózg i ciało dosłownie przestawiają się na inne tory. Kiedy wiesz, czego się spodziewać i kiedy to mija, jest łatwiej przetrwać." },
+
+      { type: "h2", text: "Skąd biorą się objawy odstawienia?" },
+      { type: "p", text: "Przez lata palenia mózg dostosował się do stałej obecności nikotyny. Nikotyna stymulowała receptory acetylocholinowe, wyzwalając dopaminę — hormon przyjemności. Gdy przestajesz palić, receptory wołają o nikotynę. Dopiero po kilku tygodniach wracają do równowagi." },
+      { type: "p", text: "To fizjologia — nie słabość woli." },
+
+      { type: "h2", text: "Lista objawów — co możesz czuć" },
+      { type: "ul", items: [
+        "Silny głód nikotynowy — ataki trwają kilka minut, potem mijają",
+        "Drażliwość, złość, nerwowość — mózg przestawia poziomy dopaminy",
+        "Trudności z koncentracją — szczególnie w pierwszym tygodniu",
+        "Niepokój, lęk",
+        "Obniżony nastrój — u części osób chwilowa depresja (mija zwykle po 2-4 tygodniach)",
+        "Problemy ze snem — trudności z zasypianiem, żywsze sny niż zwykle",
+        "Zwiększony apetyt — jeden z najczęstszych i najbardziej trwałych objawów",
+        "Bóle głowy lub uczucie ciężkości w głowie",
+        "Kaszel — płuca zaczynają oczyszczać się z nagromadzonego śluzu",
+      ]},
+      { type: "callout", variant: "info", title: "Kaszel po rzuceniu?", text: "Kaszel kilka dni lub tygodni po rzuceniu to znak, że płuca pracują. Rzęski (mikroskopijne 'miotełki' w oskrzelach) zaczynają znowu działać i wydalają nagromadzony śluz. To pozytywny znak, nie choroba." },
+
+      { type: "h2", text: "Oś czasu — kiedy co się dzieje" },
+      { type: "table", caption: "Przebieg objawów odstawienia nikotyny", headers: ["Czas", "Co się dzieje"], rows: [
+        ["2-4 godziny", "Pierwsze głody nikotynowe, lekki niepokój"],
+        ["24 godziny", "Nikotyna zaczyna opuszczać krew, głody się nasilają"],
+        ["48-72 godziny", "SZCZYT — najintensywniejsze objawy fizyczne, drażliwość, bóle głowy"],
+        ["Tydzień 1-2", "Objawy fizyczne zaczynają słabnąć, wyzwalacze nawykowe nadal silne"],
+        ["Tydzień 2-4", "Większość objawów fizycznych mija, normalizacja nastroju"],
+        ["1-3 miesiące", "Sporadyczne głody (szczególnie przy wyzwalaczach), łatwiejsze do opanowania"],
+        ["Po 3 miesiącach", "Dla większości osób: życie bez papierosa staje się nową normą"],
+      ]},
+
+      { type: "h2", text: "Szczyt wypada w 48-72 godziny" },
+      { type: "p", text: "To ważna informacja. Większość osób, które wróciły do palenia, zrobiła to właśnie w tym oknie — nie wiedząc, że są już blisko końca najgorszego." },
+      { type: "p", text: "Jeśli jesteś w dniu 2 lub 3 i myślisz że tak będzie zawsze — nie będzie. Twoje ciało jest teraz w najintensywniejszym punkcie oczyszczania. Za 24-48 godzin poczujesz wyraźną ulgę." },
+      { type: "callout", variant: "tip", title: "Strategia na szczyt", text: "Zaplanuj dni 2-3 tak, żeby mieć jak najmniej 'luzów'. Spacer, krótkie ćwiczenia, film, rozmowa — cokolwiek zajmuje ręce i myśl. Badania pokazują, że nawet 5-minutowy spacer zmniejsza intensywność głodu nikotynowego." },
+
+      { type: "h2", text: "Zwiększony apetyt — co z tym zrobić" },
+      { type: "p", text: "Nikotyna przyspiesza metabolizm i tłumi apetyt. Po rzuceniu oba efekty odwracają się. Większość byłych palaczy przybiera na wadze — średnio 3-5 kg w ciągu pierwszego roku (WHO)." },
+      { type: "p", text: "To nie jest nieuchronne. Kilka rzeczy pomaga:" },
+      { type: "ul", items: [
+        "Miej pod ręką zdrowe przekąski zamiast słodyczy (marchewka, jabłko, orzechy)",
+        "Pij dużo wody — głód nikotynowy i głód kaloryczny wyglądają podobnie",
+        "Ruch fizyczny kompensuje wolniejszy metabolizm i poprawia nastrój",
+        "Nie walcz z głodem i z papierosem naraz — jeśli kilka kilo w pierwszych tygodniach pomaga nie palić, to uczciwa cena",
+      ]},
+
+      { type: "h2", text: "Problemy ze snem — to przejściowe" },
+      { type: "p", text: "Nikotyna wpływa na architekturę snu — stymuluje układ nerwowy. Po rzuceniu niektórzy śpią gorzej przez 2-3 tygodnie: trudniej zasnąć, sny są żywsze lub niepokojące." },
+      { type: "p", text: "Co pomaga: stała pora wstawania (nawet po złej nocy), ograniczenie ekranów przed snem, chłodsza sypialnia. Problemy ze snem mijają same — zwykle w ciągu 2-4 tygodni." },
+
+      { type: "h2", text: "Obniżony nastrój i lęk" },
+      { type: "p", text: "Część osób doświadcza przejściowego obniżenia nastroju lub nasilonego lęku w pierwszych 1-2 tygodniach. Mózg dosłownie przestawia poziomy neuroprzekaźników." },
+      { type: "callout", variant: "warning", title: "Kiedy warto porozmawiać z lekarzem", text: "Jeśli obniżony nastrój utrzymuje się dłużej niż 4 tygodnie, znacznie utrudnia funkcjonowanie lub pojawiają się myśli samobójcze — skontaktuj się z lekarzem. W Polsce NRT i leczenie uzależnienia tytoniowego są dostępne w ramach NFZ." },
+
+      { type: "h2", text: "NRT — czy warto?" },
+      { type: "p", text: "Jeśli objawy są bardzo intensywne, nikotynowa terapia zastępcza (plastry, gumy, tabletki) może znacznie ułatwić pierwsze tygodnie. Nie eliminuje objawów całkowicie — ale zmniejsza ich intensywność i daje więcej przestrzeni na budowanie nowych nawyków." },
+      { type: "related", slug: "nrt-plastry-gumy-tabletki-co-refunduje-nfz", title: "NRT: plastry, gumy, tabletki nikotynowe — co to jest i jak działa" },
+      { type: "related", slug: "jak-rzucic-palenie-przewodnik", title: "Jak rzucić palenie — kompletny przewodnik krok po kroku" },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i nie zastępuje porady lekarskiej. Jeśli objawy odstawienia są bardzo nasilone lub trwają długo, skonsultuj się z lekarzem rodzinnym." },
+    ],
+  },
+  {
+    slug: "jak-nie-przytyc-po-rzuceniu-palenia",
+    category: "Poradnik",
+    title: "Jak nie przytyć po rzuceniu palenia — co działa, a co to mit",
+    excerpt: "Strach przed przybraniem na wadze to jedna z głównych barier przed rzuceniem palenia. Sprawdzamy dlaczego tyjesz, o ile i co możesz z tym zrobić.",
+    readTime: "6 min",
+    date: "27 cze 2026",
+    dateISO: "2026-06-27",
+    emoji: "⚖️",
+    content: [
+      { type: "p", text: "\"Rzucę, ale boję się przytyć\" — to zdanie słyszy wielu lekarzy i doradców antytytoniowych. I nie bez powodu: przyrost wagi po rzuceniu palenia jest realny. Ale można go ograniczyć — i jest wiele powodów, żeby tego nie używać jako wymówki." },
+
+      { type: "h2", text: "Dlaczego palacze tyją po rzuceniu?" },
+      { type: "p", text: "Nikotyna robi w organizmie kilka rzeczy naraz:" },
+      { type: "ul", items: [
+        "Przyspiesza metabolizm — ciało spala więcej kalorii nawet w spoczynku",
+        "Tłumi apetyt — po papierosie głód jest słabszy",
+        "Przyćmiewa zmysł smaku i węchu — jedzenie jest mniej kuszące",
+        "Daje coś do roboty ustom i rękom — zastępuje podjadanie",
+      ]},
+      { type: "p", text: "Gdy rzucasz, wszystkie te efekty odwracają się naraz. Metabolizm zwalnia, apetyt rośnie, jedzenie nagle smakuje lepiej — a ręce szukają czegoś do trzymania." },
+
+      { type: "h2", text: "O ile można przytyć?" },
+      { type: "p", text: "Średni przyrost masy ciała po rzuceniu palenia to ok. 4-5 kg w ciągu pierwszego roku (Cochrane, przegląd 2012). To średnia — część osób nie tyje prawie wcale, część więcej." },
+      { type: "callout", variant: "info", title: "Nie każdy tyje", text: "Około 16-21% byłych palaczy nie przybiera na wadze wcale lub chudnie po rzuceniu (dane z badań kohortowych). Metabolizm, dieta i aktywność fizyczna mają większe znaczenie niż sam fakt rzucenia palenia." },
+      { type: "p", text: "Ważna perspektywa: przyrost masy ciała o 4-5 kg ma znacznie mniejszy wpływ na ryzyko chorób serca niż kontynuowanie palenia. CDC szacuje, że trzeba by przytyć ok. 40 kg, żeby wyrównać szkodliwość zdrowotną palenia paczki papierosów dziennie." },
+
+      { type: "h2", text: "Kiedy najgorzej?" },
+      { type: "p", text: "Największy przyrost wagi następuje zwykle w pierwszych 3 miesiącach. Potem tempo spowalnia — a po roku większość byłych palaczy stabilizuje wagę, szczególnie jeśli zadbała o dietę i ruch." },
+
+      { type: "h2", text: "Co naprawdę pomaga" },
+
+      { type: "h3", text: "Ruch fizyczny — najskuteczniejsza metoda" },
+      { type: "p", text: "30 minut dziennie umiarkowanego wysiłku (szybki spacer, rower, basen) częściowo kompensuje spowolnienie metabolizmu. Ruch dodatkowo redukuje głody nikotynowe i poprawia nastrój w pierwszych tygodniach — podwójna korzyść." },
+      { type: "callout", variant: "tip", title: "Krótszy wysiłek też działa", text: "Badania pokazują, że nawet 5-minutowy spacer zmniejsza intensywność głodu nikotynowego. Zamiast siłowni — krótki spacer po każdym posiłku. To wystarczy na start." },
+
+      { type: "h3", text: "Zdrowe zamienniki dla rąk i ust" },
+      { type: "p", text: "Część głodu to odruch — ręce i usta szukają czegoś do roboty. Zamiast sięgać po słodycze:" },
+      { type: "ul", items: [
+        "Marchewka, seler, jabłko — mało kalorii, jest co gryźć",
+        "Orzechy (z umiarem) — sycą i dają coś do roboty",
+        "Gumy do żucia bez cukru — szczególnie na pierwsze tygodnie",
+        "Duże ilości wody — zaspokajają odruch sięgania po coś i redukują apetyt",
+        "Słomki do picia — brzmi śmiesznie, ale pomaga w odruchu ustnym",
+      ]},
+
+      { type: "h3", text: "Małe, regularne posiłki" },
+      { type: "p", text: "Zamiast trzech dużych dań — pięć mniejszych. Utrzymuje stabilny poziom cukru we krwi i zmniejsza ryzyko napadów głodu, które prowadzą do sięgania po pierwsze co pod ręką." },
+
+      { type: "h3", text: "Nie walcz z wagą i z papierosem naraz" },
+      { type: "p", text: "Dieta redukcyjna plus odstawienie nikotyny w tym samym czasie to za dużo stresu naraz. Badania sugerują, że próba jednoczesnego rzucenia palenia i odchudzania zmniejsza szansę na sukces w obu. Najpierw rzuć palenie — z wagą możesz powalczyć po 3-6 miesiącach." },
+      { type: "callout", variant: "warning", title: "Kiedy NRT może pomóc z wagą", text: "Nikotynowa terapia zastępcza (plastry, gumy) spowalnia przyrost wagi w trakcie stosowania, bo nikotyna nadal tłumi apetyt. To dodatkowy argument za NRT — nie tylko jako pomoc w rzuceniu, ale też jako bufor dla metabolizmu w pierwszych tygodniach." },
+
+      { type: "h2", text: "Mit: papierosy utrzymują linię" },
+      { type: "p", text: "Wśród palaczy krąży przekonanie, że papierosy 'pomagają utrzymać wagę'. Technicznie nikotyna przyspiesza metabolizm — ale palenie to nie dieta. Palacze mają przeciętnie podobną lub wyższą masę ciała niż niepalący w tej samej grupie wiekowej i płci (dane GUS/CBOS). Przyrost po rzuceniu to powrót do fizjologicznej normy, nie do nienormalnie wysokiej wagi." },
+
+      { type: "related", slug: "objawy-odstawienia-nikotyny", title: "Objawy odstawienia nikotyny — co czuć, kiedy szczyt i kiedy mija" },
+      { type: "related", slug: "10-zmian-ktore-poczujesz-po-rzuceniu-palenia", title: "10 zmian, które poczujesz po rzuceniu palenia — oś czasu regeneracji" },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i nie zastępuje porady lekarskiej ani dietetycznej. Jeśli masz specyficzne potrzeby zdrowotne związane z wagą, skonsultuj się z lekarzem lub dietetykiem." },
+    ],
+  },
 ];
 
 export const articles: Article[] = [...rawArticles].sort(
