@@ -15,7 +15,7 @@ const values = [
   {
     emoji: "🤝",
     title: "Bez osądzania",
-    desc: "Rzucanie palenia to walka z uzależnieniem, nie kwestia silnej woli. Tu nie usłyszysz, że „po prostu przestań".",
+    desc: "Rzucanie palenia to walka z uzależnieniem, nie kwestia silnej woli. Tu nie usłyszysz, że 'po prostu przestań'.",
   },
   {
     emoji: "🔬",
