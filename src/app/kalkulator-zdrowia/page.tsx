@@ -193,7 +193,7 @@ export default function KalkulatorZdrowiaPage() {
           {stats.nextMilestone && stats.daysToNext !== null && (
             <section
               aria-labelledby="next-milestone-heading"
-              className="bg-gray-50 dark:bg-gray-800/40 border-l-4 border-l-green-500 dark:border-l-green-600 border border-gray-200 dark:border-gray-700 rounded-lg p-6"
+              className="bg-green-50/50 dark:bg-green-950/15 border border-l-4 border-gray-200 dark:border-gray-700 border-l-green-400 dark:border-l-green-600 rounded-lg p-5"
             >
               <h2 id="next-milestone-heading" className="text-base font-bold text-gray-900 dark:text-gray-100 mb-1">
                 Następny kamień milowy – {stats.nextMilestone.label}

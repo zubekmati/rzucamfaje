@@ -165,7 +165,7 @@ export default function KalkulatorPetowPage() {
           {/* Lifetime weight context */}
           <section
             aria-labelledby="context-heading"
-            className="bg-gray-50 dark:bg-gray-800/40 border border-gray-200 dark:border-gray-700 rounded-2xl p-6"
+            className="bg-amber-50/50 dark:bg-amber-950/15 border border-l-4 border-gray-200 dark:border-gray-700 border-l-amber-400 dark:border-l-amber-500 rounded-lg p-5"
           >
             <h2 id="context-heading" className="text-base font-bold text-gray-900 dark:text-gray-100 mb-2">
               Co to znaczy w praktyce?
