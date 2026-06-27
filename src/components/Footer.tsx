@@ -27,7 +27,6 @@ const footerNavGroups: { heading: string; links: FooterLink[] }[] = [
       { href: "/polityka-prywatnosci", label: "Polityka prywatności" },
       { href: "/regulamin", label: "Regulamin" },
       { href: "/kontakt", label: "Kontakt" },
-      { href: "/reklama", label: "Reklama" },
     ],
   },
 ];
@@ -45,43 +44,22 @@ export default function Footer() {
               aria-label="RzucamFaje.pl – strona główna"
               className="inline-flex items-center gap-2 mb-4 group"
             >
-              <span aria-hidden="true" className="flex items-center justify-center w-9 h-9 rounded-xl bg-green-700 text-white text-lg font-bold group-hover:bg-green-600 transition-colors">
-                🌿
+              <span aria-hidden="true" className="flex items-center justify-center w-9 h-9 rounded-xl bg-green-700 group-hover:bg-green-600 transition-colors">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="2" opacity="0.9"/>
+                  <rect x="5" y="10.5" width="10" height="3" rx="1.5" fill="white" opacity="0.9"/>
+                  <rect x="15" y="10.5" width="3" height="3" rx="1" fill="#86efac"/>
+                  <line x1="5" y1="5" x2="19" y2="19" stroke="white" strokeWidth="2.2" strokeLinecap="round"/>
+                </svg>
               </span>
               <span className="text-lg font-bold text-white group-hover:text-green-400 transition-colors">
                 RzucamFaje<span className="text-green-400">.pl</span>
               </span>
             </Link>
-            <p className="text-sm text-gray-400 leading-relaxed mb-5">
+            <p className="text-sm text-gray-400 leading-relaxed">
               Portal wsparcia dla osób rzucających palenie. Rzetelne informacje,
               ciepła społeczność, zero osądzania.
             </p>
-
-            {/* Social links */}
-            <div className="flex gap-3">
-              <a
-                href="https://facebook.com/rzucamfaje"
-                rel="noopener noreferrer"
-                aria-label="RzucamFaje.pl na Facebooku (otwiera się w nowej karcie)"
-                className="w-8 h-8 flex items-center justify-center rounded-lg bg-gray-800 text-gray-400 hover:bg-green-700 hover:text-white transition-colors"
-              >
-                <svg aria-hidden="true" focusable="false" className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
-                </svg>
-              </a>
-              <a
-                href="https://instagram.com/rzucamfaje"
-                rel="noopener noreferrer"
-                aria-label="RzucamFaje.pl na Instagramie (otwiera się w nowej karcie)"
-                className="w-8 h-8 flex items-center justify-center rounded-lg bg-gray-800 text-gray-400 hover:bg-green-700 hover:text-white transition-colors"
-              >
-                <svg aria-hidden="true" focusable="false" className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} />
-                  <circle cx="12" cy="12" r="4" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} />
-                  <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
-                </svg>
-              </a>
-            </div>
           </div>
 
           {/* Navigation link groups */}
