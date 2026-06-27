@@ -41,9 +41,14 @@ export default function Header() {
           >
             <span
               aria-hidden="true"
-              className="flex items-center justify-center w-9 h-9 rounded-xl bg-green-700 text-white text-lg font-bold group-hover:bg-green-800 transition-colors"
+              className="flex items-center justify-center w-9 h-9 rounded-xl bg-green-700 group-hover:bg-green-800 transition-colors"
             >
-              🌿
+              <svg width="27" height="27" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="2" opacity="0.9"/>
+                <rect x="5" y="10.5" width="10" height="3" rx="1.5" fill="white" opacity="0.9"/>
+                <rect x="15" y="10.5" width="3" height="3" rx="1" fill="#86efac"/>
+                <line x1="5" y1="5" x2="19" y2="19" stroke="white" strokeWidth="2.2" strokeLinecap="round"/>
+              </svg>
             </span>
             <span className="text-xl font-bold text-gray-900 dark:text-white">
               RzucamFaje
