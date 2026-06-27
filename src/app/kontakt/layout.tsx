@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kontakt – RzucamFaje.pl",
-  description: "Napisz do nas – chętnie odpowiemy na pytania dotyczące portalu RzucamFaje.pl.",
+  description: "Napisz do mnie – chętnie odpowiem na pytania dotyczące portalu RzucamFaje.pl.",
   alternates: { canonical: "/kontakt" },
 };
 

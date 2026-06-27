@@ -134,7 +134,7 @@ export default function ONasPage() {
               i szkic, ja wybieram tematy, czytam i zatwierdzam. Nie udaję, że sprawdzam każde zdanie
               z badaniem naukowym w ręku. Ale pilnuję żeby nie było bzdur i żeby brzmiało jak człowiek,
               nie jak content farm. Przy okazji uczę się jak działa internet, SEO i nowe technologie.
-              Jeśli Cię to ciekawi — możemy o tym porozmawiać
+              Jeśli Cię to ciekawi — możesz o tym napisać
               przez{" "}
               <Link href="/kontakt" className="text-green-700 dark:text-green-400 underline underline-offset-2 hover:text-green-800">
                 formularz kontaktowy

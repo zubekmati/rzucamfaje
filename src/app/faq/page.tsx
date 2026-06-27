@@ -35,7 +35,7 @@ const faqItems = [
   {
     id: "silna-wola",
     q: "Czy bez silnej woli nie ma szans?",
-    a: "To jest jeden z najbardziej szkodliwych mitów o paleniu. Uzależnienie nikotynowe jest chorobą – taką samą jak alkoholizm czy uzależnienie od leków. Nie pokonuje się ich wyłącznie silną wolą. Najskuteczniejsze metody łączą wsparcie farmakologiczne (NRT, wareniklinę) z planowaniem i wsparciem społecznym. \"Silna wola\" bez żadnej strategii to najsłabsza metoda rzucania, jaką znamy.",
+    a: "To jest jeden z najbardziej szkodliwych mitów o paleniu. Uzależnienie nikotynowe jest chorobą – taką samą jak alkoholizm czy uzależnienie od leków. Nie pokonuje się ich wyłącznie silną wolą. Najskuteczniejsze metody łączą wsparcie farmakologiczne (NRT, wareniklinę) z planowaniem i wsparciem społecznym. \"Silna wola\" bez żadnej strategii to najsłabsza metoda rzucania, jaką zna medycyna.",
   },
   {
     id: "wareniklist",
@@ -65,7 +65,7 @@ const faqItems = [
   {
     id: "kontakt",
     q: "Nie znalazłem/am odpowiedzi na moje pytanie. Co zrobić?",
-    a: "Napisz do nas – czytamy każdą wiadomość i staramy się odpowiadać. Adres e-mail: kontakt@rzucamfaje.pl. Możesz też skorzystać z formularza kontaktowego.",
+    a: "Napisz — czytam każdą wiadomość i staram się odpowiadać. Adres e-mail: kontakt@rzucamfaje.pl. Możesz też skorzystać z formularza kontaktowego.",
   },
 ];
 

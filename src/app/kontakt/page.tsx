@@ -140,7 +140,7 @@ export default function KontaktPage() {
                     Wiadomość wysłana!
                   </h2>
                   <p className="text-gray-600 dark:text-gray-400 mb-6">
-                    Twój klient poczty powinien się otworzyć. Odpiszemy w ciągu 48 godzin roboczych.
+                    Twój klient poczty powinien się otworzyć. Odpisuję w ciągu 48 godzin roboczych.
                   </p>
                   <button
                     type="button"
@@ -237,7 +237,7 @@ export default function KontaktPage() {
                       className={`w-full px-3 py-2.5 rounded-xl border text-sm bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors resize-y ${
                         errors.message ? "border-red-400 dark:border-red-500" : "border-gray-200 dark:border-gray-700"
                       }`}
-                      placeholder="Napisz, z czym możemy Ci pomóc…"
+                      placeholder="Napisz, z czym mogę Ci pomóc…"
                     />
                     {errors.message && (
                       <p id="error-message" role="alert" className="mt-1.5 text-xs text-red-600 dark:text-red-400">
