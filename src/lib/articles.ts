@@ -612,7 +612,7 @@ const rawArticles: Article[] = [
       { type: "callout", variant: "warning", title: "Tylko zweryfikowane źródła", text: "W internecie jest wiele 'programów rzucania palenia' — płatnych kursów, suplementów i urządzeń z chwytliwymi obietnicami. Poniżej wyłącznie instytucje publiczne, organizacje zdrowotne lub programy z udokumentowaną skutecznością." },
       { type: "h2", text: "Telefoniczna Poradnia Pomocy Palącym (NFZ)" },
       { type: "p", text: "Bezpłatna infolinia prowadzona we współpracy z NFZ. Specjaliści pomagają w opracowaniu planu rzucania palenia, odpowiadają na pytania i wspierają w trudnych momentach." },
-      { type: "p", text: "Numer: 801 108 108 (czynna w godzinach pracy, koszt połączenia jak do numeru stacjonarnego). Dostępna pod adresem: palenie.pl (oficjalny portal NFZ o rzucaniu palenia)." },
+      { type: "p", text: "Numer: 801 108 108 (czynna w godzinach pracy, koszt połączenia jak do numeru stacjonarnego). Więcej informacji na jakrzucicpalenie.pl." },
       { type: "h2", text: "Poradnie Leczenia Uzależnienia od Tytoniu (PLUT)" },
       { type: "p", text: "Specjalistyczne poradnie działające przy szpitalach i przychodniach w całej Polsce, finansowane przez NFZ. Oferują pełną diagnostykę uzależnienia, wsparcie farmakologiczne (NRT, leki) i sesje behawioralne. Wyszukiwarka placówek dostępna na stronie NFZ (nfz.gov.pl)." },
       { type: "h2", text: "Główny Inspektorat Sanitarny — kampania 'Rzuć palenie razem z nami'" },
@@ -622,7 +622,7 @@ const rawArticles: Article[] = [
       { type: "callout", variant: "tip", title: "Zacznij od tego", text: "Zadzwoń do przychodni i umów wizytę, mówiąc wprost: 'chcę porozmawiać o rzuceniu palenia'. Lekarz rodzinny ma narzędzia, żeby pomóc — i jest to objęte NFZ." },
       { type: "h2", text: "Zasoby online (zweryfikowane)" },
       { type: "ul", items: [
-        "palenie.pl — oficjalny portal NFZ, materiały edukacyjne, wyszukiwarka poradni",
+        "jakrzucicpalenie.pl — materiały edukacyjne i wsparcie dla rzucających palenie",
         "gis.gov.pl — Główny Inspektorat Sanitarny, kampanie zdrowotne",
         "who.int/tobacco — WHO, zasoby w języku angielskim, raporty i wytyczne",
         "ptzp.org.pl — Polskie Towarzystwo Zapobiegania Paleniu Tytoniu",
