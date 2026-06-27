@@ -8,7 +8,8 @@ const securityHeaders = [
   // Control referrer info sent with requests
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
   // Enforce HTTPS for 1 year
-  { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" },
+  { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains; preload" },
+  { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
   // Restrict browser features (camera, microphone, etc.)
   { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
   // Basic XSS protection for older browsers
