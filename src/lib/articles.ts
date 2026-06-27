@@ -1287,6 +1287,285 @@ const rawArticles: Article[] = [
       { type: "p", text: "Ten artykuł ma charakter informacyjny i nie zastępuje porady lekarskiej ani dietetycznej. Jeśli masz specyficzne potrzeby zdrowotne związane z wagą, skonsultuj się z lekarzem lub dietetykiem." },
     ],
   },
+  {
+    slug: "metoda-allena-carra",
+    category: "Poradnik",
+    title: "Metoda Allena Carra — na czym polega i czy naprawdę działa?",
+    excerpt: "\"Łatwy sposób na rzucenie palenia\" sprzedał się w 13 milionach egzemplarzy. Sprawdzamy, co tak naprawdę w nim działa — i dla kogo może nie zadziałać.",
+    readTime: "5 min",
+    date: "27 cze 2026",
+    dateISO: "2026-06-27",
+    emoji: "📖",
+    content: [
+      { type: "p", text: "Allen Carr palił 100 papierosów dziennie przez ponad 30 lat. W 1983 roku rzucił z dnia na dzień — i do końca życia twierdził, że było to łatwe. Napisał o tym książkę. Sprzedała się w ponad 13 milionach egzemplarzy na całym świecie." },
+      { type: "p", text: "Czy to działa? I jeśli tak, to dlaczego — skoro nie wymaga silnej woli ani tabletek?" },
+
+      { type: "h2", text: "Kim był Allen Carr?" },
+      { type: "p", text: "Brytyjski księgowy, który przez dekady próbował rzucić palenie i nie mógł. Gdy w końcu mu się udało, zrozumiał — jego zdaniem — dlaczego wcześniejsze próby kończyły się fiaskiem. Otworzył klinikę, a potem napisał książkę. Zmarł w 2006 roku na raka płuca — chorobę, na którą zachorował mimo 23 lat abstynencji." },
+
+      { type: "h2", text: "Na czym polega metoda?" },
+      { type: "p", text: "Carr twierdzi, że palacze nie rzucają, bo wierzą w dwa mity:" },
+      { type: "ul", items: [
+        "Że papieros daje prawdziwą przyjemność (relaks, koncentracja, towarzystwo)",
+        "Że rzucenie wymaga wyrzeczenia i cierpienia",
+      ]},
+      { type: "p", text: "Metoda polega na dekonstrukcji tych przekonań. Nie na walce z nałogiem, ale na zrozumieniu, że papieros nie daje nic — że 'ulga' po papierosie to tylko uśmierzenie głodu, który on sam wywołał. Gdy zrozumiesz pułapkę, przestajesz chcieć palić — zamiast zmuszać się do niepalenia." },
+      { type: "callout", variant: "info", title: "Czym nie jest metoda Carra", text: "Nie jest to hipnoza ani technika relaksacyjna. To przede wszystkim zmiana sposobu myślenia o paleniu — praca poznawcza. Podczas czytania książki możesz palić (Carr sam tak zaleca). Ostatni papieros wypalasz po doczytaniu do końca." },
+
+      { type: "h2", text: "Czy to działa? Co mówią badania?" },
+      { type: "p", text: "Baza naukowa jest ograniczona w porównaniu z NRT i farmakoterapią. Kilka niezależnych badań klinicznych sprawdzało skuteczność metody — wyniki są zróżnicowane, ale wskazują, że u części palaczy metoda działa co najmniej tak dobrze, jak standardowe porady lekarskie." },
+      { type: "p", text: "Jednak Cochrane — najbardziej rygorystyczna instytucja oceniająca metody medyczne — nie wydała jak dotąd silnego zalecenia dla metody Carra z powodu ograniczonej liczby badań spełniających ich standardy." },
+      { type: "callout", variant: "tip", title: "Co mówią praktycy", text: "Wiele osób, które twierdzą, że 'nic nie działało' aż do metody Carra, to palacze, którzy próbowali wcześniej na silną wolę. Jeśli dotychczasowe próby opierały się na poczuciu wyrzeczenia — ta metoda może dać inną perspektywę." },
+
+      { type: "h2", text: "Jak zacząć?" },
+      { type: "ul", items: [
+        "Książka: \"Łatwy sposób na rzucenie palenia\" — dostępna w każdej księgarni i online (~20-30 zł)",
+        "Audiobook: dostępny po polsku, dla osób preferujących słuchanie",
+        "Seminarium: Allen Carr's Easyway prowadzi sesje stacjonarne w Polsce (koszt: kilkaset złotych, z gwarancją zwrotu jeśli nie rzucisz)",
+        "Aplikacja: Easyway — dostępna na iOS i Android, oparta na tej samej metodzie",
+      ]},
+
+      { type: "h2", text: "Dla kogo metoda może nie zadziałać?" },
+      { type: "p", text: "Metoda opiera się na zrozumieniu i zmianie myślenia — wymaga czytania ze skupieniem i otwartości na kwestionowanie własnych przekonań. Może być mniej skuteczna dla osób z bardzo silną zależnością fizyczną (palacze >30 papierosów/dzień mogą potrzebować dodatkowego NRT) lub tych, którzy mają trudności z pracą poznawczą w trakcie odstawienia." },
+      { type: "p", text: "Nie ma jednej metody dla wszystkich. Jeśli Carr nie przemawia do Ciebie — NRT, leki i wsparcie poradni to w pełni uzasadnione ścieżki." },
+
+      { type: "related", slug: "metody-rzucania-palenia-co-dziala", title: "Które metody rzucania palenia naprawdę działają? Przegląd badań" },
+      { type: "related", slug: "jak-rzucic-palenie-przewodnik", title: "Jak rzucić palenie — kompletny przewodnik krok po kroku" },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i nie zastępuje porady lekarskiej. Jeśli potrzebujesz wsparcia przy rzuceniu palenia, skonsultuj się z lekarzem rodzinnym." },
+    ],
+  },
+  {
+    slug: "co-zastapic-papierosa",
+    category: "Poradnik",
+    title: "Co zastąpić papierosa — zamienniki na każdą sytuację",
+    excerpt: "Głód nikotynowy trwa kilka minut. Kluczem jest przetrwanie tych minut inaczej niż zwykle. Sprawdzone zamienniki — dla rąk, ust, nawyku i emocji.",
+    readTime: "5 min",
+    date: "27 cze 2026",
+    dateISO: "2026-06-27",
+    emoji: "🔄",
+    content: [
+      { type: "p", text: "Głód nikotynowy trwa przeciętnie kilka minut — potem opada sam. Problem nie w tym, żeby wytrzymać godzinę. Problem w tym, co zrobić przez te kilka minut, kiedy odruch palenia jest najsilniejszy." },
+      { type: "p", text: "Palenie to kilka uzależnień w jednym: chemiczne (nikotyna), behawioralne (rytuał), sensoryczne (smak, dym), społeczne (przerwa z kolegami). Dobry zamiennik adresuje przynajmniej jedno z nich." },
+
+      { type: "h2", text: "Zamienniki dla rąk i ust" },
+      { type: "p", text: "Duża część odruchu palenia to po prostu coś do trzymania i czegoś do roboty ustami. Te opcje adresują ten konkretny odruch:" },
+      { type: "ul", items: [
+        "Gumy do żucia bez cukru — klasyka, szczególnie pomocna w pierwszych tygodniach",
+        "Twarde cukierki bez cukru — coś do ssania w sytuacjach bez możliwości żucia",
+        "Marchewka, seler, jabłko — mało kalorii, jest co gryźć, ręce są zajęte",
+        "Słomka do picia — brzmi śmiesznie, ale symuluje ruch wdychania",
+        "Długopis lub gumka recepturka — coś do trzymania w palcach w trakcie koncentracji",
+        "Zimna woda — wypita powoli, przerwa 'coś do roboty' bez kalorii",
+      ]},
+
+      { type: "h2", text: "Zamienniki dla rytuału" },
+      { type: "p", text: "Dla wielu palaczy najtrudniejszą częścią nie jest brak nikotyny — ale brak rytuału: przerwy w pracy, chwili po kawie, momentu 'dla siebie'. Tu chodzi o zastąpienie rytuału, nie substancji:" },
+      { type: "ul", items: [
+        "Herbata lub kawa na zewnątrz — ta sama przerwa, ten sam oddech, bez dymu",
+        "5-minutowy spacer — zamiast przerwy papierosowej; niektóre firmy formalnie wprowadzają 'spacer breaks'",
+        "Ćwiczenia oddechowe — 4 oddechy po 4 sekundy; dosłownie zajmują tyle czasu co papieros",
+        "Krótka medytacja lub minuta ciszy — zamiast 'wyjścia na dym'",
+      ]},
+      { type: "callout", variant: "tip", title: "Kawa a palenie", text: "Kawa i papieros to jeden z silniejszych skojarzeń. Część osób zmienia kawę na herbatę przez pierwsze tygodnie, żeby przerwać skojarzenie. Inne po prostu siedzą z kawą bez papierosa — i z każdym dniem skojarzenie słabnie." },
+
+      { type: "h2", text: "Zamienniki dla emocji — stres i nuda" },
+      { type: "p", text: "Papieros był narzędziem regulacji emocji. Po rzuceniu potrzebujesz innych narzędzi — szczególnie dla dwóch najczęstszych wyzwalaczy: stresu i nudy." },
+      { type: "h3", text: "Stres" },
+      { type: "ul", items: [
+        "Ćwiczenia oddechowe — 5 głębokich wdechów działa szybciej niż zakurzenie papierosa",
+        "Krótki spacer (5-10 minut) — redukuje kortyzol skuteczniej niż nikotyna",
+        "Woda z lodem — fizyczny sygnał dla układu nerwowego do zwolnienia",
+        "Ściskanie piłeczki antystresowej lub prostowanie spinacza — dla rąk szukających pracy",
+      ]},
+      { type: "h3", text: "Nuda" },
+      { type: "ul", items: [
+        "Gra na telefonie (nie scrollowanie — coś aktywnego, np. puzzle)",
+        "Podcast lub audiobook — coś, czego słuchasz tylko w momentach 'wysokiego ryzyka'",
+        "Lista zadań — nawet mała (zamiast przerwy papierosowej: przerwa organizacyjna)",
+        "Rozmowa — zadzwoń do kogoś, odpowiedz na wiadomość",
+      ]},
+
+      { type: "h2", text: "NRT — farmakologiczny zamiennik nikotyny" },
+      { type: "p", text: "Nikotynowa terapia zastępcza (NRT) to zamiennik chemiczny — dostarcza nikotynę bez dymu i toksyn. Plastry zapewniają stały, niski poziom nikotyny przez cały dzień. Gumy i tabletki do ssania działają szybko i możesz ich użyć w sytuacjach głodu." },
+      { type: "p", text: "NRT można łączyć z innymi zamiennikami z tej listy — to nie jest 'albo-albo'." },
+
+      { type: "related", slug: "glod-nikotynowy-co-to-jest-jak-przetrwac", title: "Głód nikotynowy — co to jest, ile trwa i jak przetrwać najtrudniejsze chwile" },
+      { type: "related", slug: "nrt-plastry-gumy-tabletki-co-refunduje-nfz", title: "NRT: plastry, gumy, tabletki nikotynowe — co to jest i jak działa" },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i nie zastępuje porady lekarskiej. Jeśli masz trudności z rzuceniem palenia, skonsultuj się z lekarzem rodzinnym — może wypisać NRT lub skierowanie na poradnię." },
+    ],
+  },
+  {
+    slug: "palenie-a-stres",
+    category: "Zdrowie",
+    title: "Palenie a stres — czy papieros naprawdę pomaga się uspokoić?",
+    excerpt: "Palacze wierzą, że papieros redukuje stres. Badania pokazują coś innego: nikotyna nie usuwa stresu — tylko usuwa stres, który sama wywołała. Wyjaśniamy mechanizm.",
+    readTime: "5 min",
+    date: "27 cze 2026",
+    dateISO: "2026-06-27",
+    emoji: "😤",
+    content: [
+      { type: "p", text: "'Zapalę, żeby się uspokoić' — to jedno z najstarszych przekonań palaczy. I jedno z najbardziej zwodniczych. Papieros nie redukuje stresu. On redukuje tylko stres, który sam wywołał." },
+
+      { type: "h2", text: "Co tak naprawdę się dzieje w mózgu" },
+      { type: "p", text: "Gdy nie palisz przez jakiś czas, poziom nikotyny we krwi spada. Receptory nikotynowe w mózgu zaczynają wołać — pojawia się lekki niepokój, rozdrażnienie, trudności z koncentracją. To są objawy głodu nikotynowego." },
+      { type: "p", text: "Gdy zapalasz papierosa, nikotyna trafia do mózgu w ciągu kilku sekund i wypełnia te receptory. Niepokój mija. Czujesz ulgę i spokój." },
+      { type: "p", text: "Ale ta ulga to nie redukcja stresu zewnętrznego. To wyeliminowanie stresu wywołanego przez nikotynę. Niepalący w tej samej stresowej sytuacji nie potrzebuje papierosa, żeby się uspokoić — bo nie ma głodu nikotynowego do zaspokojenia." },
+      { type: "callout", variant: "info", title: "Analogia z głodem", text: "To jak picie wody tylko wtedy, kiedy jesteś spragniony — i twierdzenie, że woda redukuje stres. Ulga jest prawdziwa. Ale pochodzi z zaspokojenia potrzeby, którą ciało samo sobie stworzyło." },
+
+      { type: "h2", text: "Palacze są bardziej zestresowani — nie mniej" },
+      { type: "p", text: "Badania konsekwentnie pokazują, że aktywni palacze mają wyższy poziom lęku i stresu niż osoby niepalące w tej samej grupie wiekowej i demograficznej (British Journal of Psychiatry, 2008 i późniejsze replikacje). Paradoks? Nie — logika: palacze żyją w stanie chronicznie niezaspokojonego głodu nikotynowego między papierosami. To permanentny, niski poziom niepokoju." },
+      { type: "p", text: "Papieros chwilowo go usuwa. Ale za 30-60 minut głód wraca — i poziom stresu znów rośnie." },
+
+      { type: "h2", text: "Co dzieje się ze stresem po rzuceniu?" },
+      { type: "p", text: "Pierwsze 2-3 tygodnie są trudne — mózg przestawia równowagę neuroprzekaźników. Możesz czuć większą drażliwość i napięcie niż przed rzuceniem." },
+      { type: "p", text: "Ale po tym okresie badania pokazują, że poziom lęku i stresu u byłych palaczy spada poniżej poziomu z czasów palenia. Ciało wraca do fizjologicznej równowagi bez chronicznie niezaspokojonego głodu." },
+      { type: "callout", variant: "tip", title: "Co pomaga w pierwszych tygodniach", text: "Ćwiczenia fizyczne są najskuteczniejszą niefarmakologiczną metodą redukcji stresu i głodów nikotynowych naraz. Nawet 5-minutowy spacer po intensywnym głodzie statystycznie zmniejsza jego intensywność." },
+
+      { type: "h2", text: "Mit: rzucenie palenia zwiększa stres" },
+      { type: "p", text: "To przekonanie kryje się za wieloma nieudanymi próbami: 'rzuciłem i byłem taki zdenerwowany, że musiałem wrócić'. Denerwowanie w pierwszych dniach jest prawdziwe — ale to nie jest Twój naturalny poziom stresu. To odstawienie nikotyny. Mija." },
+      { type: "p", text: "Wiele osób po skutecznym rzuceniu palenia opisuje zaskoczenie: okazuje się, że bez papierosa radzą sobie ze stresem przynajmniej tak samo dobrze, a często lepiej — bo nie mają stałego tła niepokoju między kolejnymi papierosami." },
+
+      { type: "h2", text: "Jak radzić sobie ze stresem bez papierosa?" },
+      { type: "ul", items: [
+        "Ćwiczenia oddechowe — 4-7-8 (wdech 4 sek., wstrzymanie 7 sek., wydech 8 sek.) działa szybciej niż zapalenie",
+        "Aktywność fizyczna — spacer, bieganie, rower obniżają kortyzol bez nikotyny",
+        "Zimna woda lub zimny prysznic — szybki reset układu nerwowego",
+        "Rozmowa z kimś bliskim — społeczna regulacja emocji, nie za pomocą substancji",
+        "Pisanie — kilka zdań o tym, co cię stresuje, daje dystans do sytuacji",
+      ]},
+
+      { type: "related", slug: "psychologia-uzaleznienia-od-nikotyny", title: "Psychologia uzależnienia od nikotyny — dlaczego mózg nie puszcza" },
+      { type: "related", slug: "glod-nikotynowy-co-to-jest-jak-przetrwac", title: "Głód nikotynowy — co to jest, ile trwa i jak przetrwać najtrudniejsze chwile" },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i nie zastępuje porady lekarskiej ani psychologicznej. Jeśli odczuwasz silny lęk lub stres utrudniający codzienne funkcjonowanie, skonsultuj się z lekarzem lub psychologiem." },
+    ],
+  },
+  {
+    slug: "dieta-przy-rzucaniu-palenia",
+    category: "Poradnik",
+    title: "Co jeść przy rzucaniu palenia — dieta, która pomaga przetrwać",
+    excerpt: "Dieta przy rzucaniu palenia to nie odchudzanie — to narzędzie do przetrwania głodów i wsparcia organizmu w pierwszych tygodniach bez papierosa.",
+    readTime: "5 min",
+    date: "27 cze 2026",
+    dateISO: "2026-06-27",
+    emoji: "🥦",
+    content: [
+      { type: "p", text: "Kiedy rzucasz palenie, jedzenie nagle smakuje lepiej — zmysły smaku i węchu wracają po tygodniach lub miesiącach. To dobra wiadomość i jednocześnie wyzwanie. Oto jak jeść przy rzucaniu, żeby pomóc sobie — a nie zaszkodzić." },
+
+      { type: "h2", text: "Dlaczego dieta ma znaczenie?" },
+      { type: "p", text: "Jedzenie wpływa na głody nikotynowe bezpośrednio. Niektóre produkty nasilają ochotę na papierosa. Inne ją tłumią. A jeszcze inne pomagają organizmowi szybciej się oczyścić po latach palenia." },
+      { type: "p", text: "Dieta przy rzucaniu to nie plan odchudzający. Priorytetem jest przetrwanie pierwszych tygodni z jak najmniejszym stresem dla organizmu." },
+
+      { type: "h2", text: "Produkty, które tłumią ochotę na papierosa" },
+      { type: "p", text: "Badania (m.in. z Duke University, USA) sugerują, że pewne produkty sprawiają, że papieros po nich smakuje gorzej — co zmniejsza chęć zapalenia:" },
+      { type: "ul", items: [
+        "Warzywa i owoce — szczególnie marchewka, jabłka, seler; badani palacze oceniali papierosy po tych produktach jako mniej smaczne",
+        "Nabiał (mleko, jogurt) — podobny efekt; po mleku papieros może smakować nieprzyjemnie",
+        "Woda — nawodnienie zmniejsza intensywność głodów",
+        "Zielona herbata — daje rytuał naparu bez kawy (która kojarzy się z paleniem)",
+      ]},
+
+      { type: "h2", text: "Produkty, które nasilają głód nikotynowy" },
+      { type: "callout", variant: "warning", title: "Warto ograniczyć w pierwszych tygodniach", text: "Kawa, alkohol i mięso (szczególnie smażone) były w tym samym badaniu oceniane jako produkty, po których papieros smakuje lepiej. To nie zakaz — ale świadomość wyzwalaczy może pomóc w trudnym momencie." },
+      { type: "ul", items: [
+        "Alkohol — najsilniejszy wyzwalacz; większość powrotów do palenia zaczyna się przy piwie lub winie",
+        "Kawa — silne skojarzenie nawykowe; warto zastąpić herbatą przez pierwsze tygodnie lub zerwać skojarzenie świadomie",
+        "Słodycze i słone przekąski — podbijają apetyt i mogą zastępować papierosy w niezdrowy sposób",
+      ]},
+
+      { type: "h2", text: "Witamina C — palacze potrzebują jej więcej" },
+      { type: "p", text: "Dym tytoniowy niszczy witaminę C w organizmie. Palacze potrzebują jej ok. dwa razy więcej niż niepalący, żeby utrzymać ten sam poziom we krwi. Po rzuceniu zapotrzebowanie normalizuje się, ale warto przez pierwsze miesiące szczególnie dbać o jej podaż." },
+      { type: "ul", items: [
+        "Papryka (żółta, czerwona) — jedno z najlepszych źródeł witaminy C",
+        "Natka pietruszki — łatwa do dodania do każdego posiłku",
+        "Czarna porzeczka, kiwi, truskawki",
+        "Cytrusy — pomarańcze, grejpfrut, cytryna",
+      ]},
+
+      { type: "h2", text: "Jak jeść, żeby nie przytyć" },
+      { type: "p", text: "Głód przy rzucaniu jest realny — i często trudno odróżnić go od głodu nikotynowego. Kilka zasad:" },
+      { type: "ul", items: [
+        "Jedz częściej i mniej — 4-5 małych posiłków zamiast 3 dużych",
+        "Miej zawsze pod ręką warzywa lub owoce — gdy sięgniesz po coś w momencie głodu, lepiej żeby to była marchewka",
+        "Pij szklankę wody zanim zdecydujesz, że jesteś głodny — głód i pragnienie są łatwe do pomylenia",
+        "Zjedz śniadanie — pomija się je rzadziej przy rzucaniu, bo papieros nie zastępuje już porannego rytuału",
+      ]},
+
+      { type: "h2", text: "Suplementy — czy warto?" },
+      { type: "p", text: "Nie ma suplementu, który bezpośrednio pomaga rzucić palenie. Ale w pierwszych miesiącach warto zadbać o podstawy: witamina D (szczególnie jesienią/zimą), magnez (pomaga przy stresie i skurczach mięśni), witamina C jak wyżej. Jeśli masz wątpliwości — zapytaj lekarza, zanim zaczniesz suplementować." },
+
+      { type: "related", slug: "jak-nie-przytyc-po-rzuceniu-palenia", title: "Jak nie przytyć po rzuceniu palenia — co działa, a co to mit" },
+      { type: "related", slug: "objawy-odstawienia-nikotyny", title: "Objawy odstawienia nikotyny — co czuć, kiedy szczyt i kiedy mija" },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i nie zastępuje porady dietetycznej ani lekarskiej. Jeśli masz specyficzne potrzeby zdrowotne, skonsultuj się z lekarzem lub dietetykiem." },
+    ],
+  },
+  {
+    slug: "palenie-a-rak",
+    category: "Zdrowie",
+    title: "Palenie a rak — jakie nowotwory grożą palaczom i co się zmienia po rzuceniu",
+    excerpt: "Palenie powoduje co najmniej 12 typów nowotworów. Sprawdzamy, jakie to ryzyko w liczbach — i jak szybko maleje po rzuceniu palenia.",
+    readTime: "6 min",
+    date: "27 cze 2026",
+    dateISO: "2026-06-27",
+    emoji: "🩺",
+    content: [
+      { type: "p", text: "Palenie i rak — ten związek jest znany od dziesięcioleci. Ale skala jest zaskakująca: palenie nie powoduje jednego rodzaju raka. Powoduje co najmniej 12. I jest przyczyną ok. 22% wszystkich zgonów nowotworowych na świecie (WHO)." },
+      { type: "p", text: "Artykuł nie ma straszyć. Ma pokazać rzeczywistość — i to, że duże ryzyko maleje znacząco po rzuceniu palenia." },
+
+      { type: "h2", text: "Rak płuca — najsilniejszy związek" },
+      { type: "p", text: "Ok. 85% raków płuca jest powiązanych z paleniem tytoniu (CDC, ACS). Palacze mają ok. 15-30 razy wyższe ryzyko zachorowania na raka płuca niż osoby, które nigdy nie paliły." },
+      { type: "p", text: "Rak płuca jest jednym z najtrudniej leczących się nowotworów — głównie dlatego, że przez długi czas nie daje wyraźnych objawów. Gdy pojawią się kaszel z krwią czy duszność, choroba jest często już zaawansowana." },
+      { type: "callout", variant: "info", title: "Ryzyko relatywne, nie absolutne", text: "Liczby 15-30x brzmią przerażająco, ale chodzi o ryzyko relatywne. Absolutne ryzyko raka płuca u niepalącego jest niskie. Palenie wielokrotnie je zwiększa — ale nie każdy palacz zachoruje. To nie zmienia faktu, że redukcja ryzyka jest kluczowym argumentem za rzuceniem." },
+
+      { type: "h2", text: "Inne nowotwory powiązane z paleniem" },
+      { type: "p", text: "Dym tytoniowy zawiera ponad 70 substancji kancerogennych, które krążą z krwią przez cały organizm. Stąd związek z nowotworami daleko poza układem oddechowym." },
+      { type: "table", caption: "Nowotwory powiązane z paleniem tytoniu (CDC, IARC)", headers: ["Narząd / typ nowotworu", "Skala związku z paleniem"], rows: [
+        ["Płuco", "Bardzo silny — ~85% raków płuca"],
+        ["Krtań i gardło", "Silny"],
+        ["Jama ustna i wargi", "Silny"],
+        ["Przełyk", "Silny"],
+        ["Żołądek", "Umiarkowany do silnego"],
+        ["Trzustka", "Silny"],
+        ["Nerka i moczowód", "Umiarkowany"],
+        ["Pęcherz moczowy", "Silny"],
+        ["Szyjka macicy", "Umiarkowany (synergistyczny z HPV)"],
+        ["Białaczka szpikowa (AML)", "Umiarkowany"],
+        ["Wątroba", "Umiarkowany"],
+        ["Jelito grube", "Umiarkowany"],
+      ]},
+
+      { type: "h2", text: "Jak papierosy powodują raka?" },
+      { type: "p", text: "Dym tytoniowy zawiera ponad 7 000 substancji chemicznych, z czego ponad 70 jest sklasyfikowanych jako kancerogeny przez Międzynarodową Agencję Badań nad Rakiem (IARC). Benzopiren, formaldehyd, akroleina — uszkadzają DNA bezpośrednio." },
+      { type: "p", text: "DNA w komórkach ulega uszkodzeniu, mechanizmy naprawcze zaczynają zawodzić przy długotrwałej ekspozycji, komórki mogą zacząć się dzielić niekontrolowanie. To uproszczone ujęcie złożonego procesu — ale taki jest mechanizm." },
+      { type: "p", text: "Ryzyko jest proporcjonalne do czasu palenia i liczby papierosów — ale nie ma bezpiecznej dawki. Nie ma takiej liczby papierosów dziennie, która jest 'bezpieczna onkologicznie'." },
+
+      { type: "h2", text: "Co się zmienia po rzuceniu palenia?" },
+      { type: "p", text: "Dobra wiadomość: ryzyko maleje — i to znacząco — już po kilku latach abstynencji." },
+      { type: "ul", items: [
+        "Po 5 latach: ryzyko raka jamy ustnej, gardła, przełyku i pęcherza spada o połowę",
+        "Po 10 latach: ryzyko raka płuca spada do ok. połowy ryzyka aktywnego palacza (CDC)",
+        "Po 10 latach: ryzyko raka krtani i trzustki również znacznie maleje",
+        "Po 15-20 latach: ryzyko wielu nowotworów zbliża się do poziomu osób niepalących",
+      ]},
+      { type: "callout", variant: "tip", title: "Nigdy nie jest za późno", text: "Badania pokazują, że korzyść z rzucenia palenia istnieje nawet u osób, które paliły przez 30-40 lat i rzuciły po 60. roku życia. Organizm zawsze wyciąga zysk z braku dalszej ekspozycji." },
+
+      { type: "h2", text: "A bierne palenie?" },
+      { type: "p", text: "Bierne narażenie na dym tytoniowy (Environmental Tobacco Smoke, ETS) również zwiększa ryzyko raka płuca u niepalących — szacuje się, że o ok. 20-30% w przypadku wieloletniego narażenia w domu lub pracy (IARC). To jeden z argumentów za zakazami palenia w miejscach publicznych." },
+
+      { type: "related", slug: "co-papierosy-robia-z-twoimi-plucami", title: "Co papierosy robią z Twoimi płucami — i co można jeszcze naprawić" },
+      { type: "related", slug: "twoje-cialo-umie-sie-naprawic", title: "Twoje ciało umie się naprawić — nawet po latach palenia" },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i edukacyjny — nie jest poradą onkologiczną ani diagnostyczną. Jeśli masz objawy niepokojące lub pytania dotyczące ryzyka nowotworowego, skonsultuj się z lekarzem." },
+    ],
+  },
 ];
 
 export const articles: Article[] = [...rawArticles].sort(
