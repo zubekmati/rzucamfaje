@@ -73,8 +73,8 @@ export default function ONasPage() {
             <div className="prose prose-gray dark:prose-invert max-w-none space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
               <p>
                 Palę od ponad 25 lat. Paczka dziennie — tyle, ile większość palaczy powie że
-                „jakoś tak wyszło". Miałem półtora roku przerwy. Naprawdę — półtora roku bez jednego
-                papierosa.
+                „jakoś tak wyszło". Miałem półtora roku przerwy. Naprawdę — poza dwoma papierosami
+                po 3 miesiącach, których żałowałem już w trakcie.
               </p>
               <p>
                 Wróciłem przez zmianę pracy. Nowe miejsce, nowi ludzie, stres i — co gorsza — spora
@@ -92,8 +92,8 @@ export default function ONasPage() {
                 że to bez sensu, ale i tak chcę.
               </p>
               <p>
-                Więc zbuduję stronę, której szukałem. Dla siebie — bo pisanie o tym pomaga myśleć.
-                I może dla Ciebie, jeśli też tutaj trafiłeś szukając czegoś prawdziwego.
+                Więc zbuduję stronę, której szukałem. I może dla Ciebie, jeśli też tutaj trafiłeś
+                szukając czegoś prawdziwego.
               </p>
             </div>
           </section>
@@ -130,9 +130,10 @@ export default function ONasPage() {
             </h2>
             <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
               RzucamFaje.pl zbudowałem bez wiedzy programistycznej — z pomocą sztucznej inteligencji.
-              Artykuły, kalkulator, kalendarz, cały kod — powstały w rozmowie z AI, któremu tłumaczyłem
-              co chcę osiągnąć. Przy okazji uczę się jak działa internet, SEO, technologie webowe
-              i jak budować produkty cyfrowe od zera. Jeśli Cię to ciekawi — możemy o tym porozmawiać
+              Kod, kalkulator i kalendarz powstały w rozmowie z AI. Artykuły są pisane z pomocą AI
+              i weryfikowane przeze mnie — żeby były rzetelne i zgodne z tym, co wiem z własnego
+              doświadczenia. Przy okazji uczę się jak działa internet, SEO i nowe technologie.
+              Jeśli Cię to ciekawi — możemy o tym porozmawiać
               przez{" "}
               <Link href="/kontakt" className="text-green-700 dark:text-green-400 underline underline-offset-2 hover:text-green-800">
                 formularz kontaktowy
