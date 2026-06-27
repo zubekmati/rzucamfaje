@@ -96,7 +96,7 @@ const rawArticles: Article[] = [
     dateISO: "2026-06-15",
     emoji: "💨",
     content: [
-      { type: "p", text: "E-papieros miał być bezpieczną alternatywą. Dla wielu stał się nowym nałogiem — albo furtką do papierosów. Sprawdzamy, co naprawdę wiemy, a co to tylko marketing." },
+      { type: "p", text: "E-papieros miał być bezpieczną alternatywą. Dla wielu stał się nowym nałogiem — albo furtką do papierosów. Co naprawdę wiadomo, a co to tylko marketing." },
       { type: "h2", text: "Jak działa e-papieros?" },
       { type: "p", text: "Urządzenie podgrzewa płyn (liquid) do temperatury ok. 200°C. Płyn zawiera: nikotynę, glikol propylenowy, glicerynę roślinną i aromaty. Nie ma spalania — jest para, nie dym." },
       { type: "p", text: "Brzmi prosto. Ale 'brak dymu' nie znaczy 'brak ryzyka'." },
@@ -234,7 +234,7 @@ const rawArticles: Article[] = [
     dateISO: "2026-06-17",
     emoji: "👨‍👩‍👧",
     content: [
-      { type: "p", text: "Palenie to decyzja dorosłego człowieka. Ale dym nie pyta o zgodę — rozchodzi się. Oto co wiemy o wpływie biernego palenia na bliskich, i dlaczego to jeden z ważnych argumentów, żeby rzucić." },
+      { type: "p", text: "Palenie to decyzja dorosłego człowieka. Ale dym nie pyta o zgodę — rozchodzi się. Oto co wiadomo o wpływie biernego palenia na bliskich, i dlaczego to jeden z ważnych argumentów, żeby rzucić." },
       { type: "h2", text: "Ten sam dym, inne ryzyko" },
       { type: "p", text: "Dym bierny (ang. secondhand smoke) zawiera te same ponad 7000 substancji chemicznych co dym wdychany przez palacza — w tym co najmniej 70 rakotwórczych (WHO/CDC). Osoby przebywające w pomieszczeniu z palaczem wdychają go bez filtra papierosowego." },
       { type: "callout", variant: "warning", title: "1,2 mln zgonów rocznie", text: "Według WHO dym bierny powoduje ok. 1,2 miliona zgonów rocznie na świecie — u osób, które nigdy same nie paliły. W Polsce zakaz palenia w miejscach publicznych (2010 r.) znacząco ograniczył ekspozycję, ale w domach prywatnych ochrony prawa nie ma." },
@@ -1063,7 +1063,7 @@ const rawArticles: Article[] = [
       ]},
 
       { type: "h2", text: "Jeśli to Ty palisz w bloku" },
-      { type: "p", text: "Nie piszemy tego, żeby kogoś zawstydzić. Jeśli palisz w mieszkaniu, kilka prostych zmian naprawdę ogranicza wpływ na sąsiadów – i to zanim ktoś zacznie pisać skargi do administracji." },
+      { type: "p", text: "Nie piszę tego, żeby kogoś zawstydzić. Jeśli palisz w mieszkaniu, kilka prostych zmian naprawdę ogranicza wpływ na sąsiadów – i to zanim ktoś zacznie pisać skargi do administracji." },
       { type: "callout", variant: "tip", title: "Mała zmiana, duża różnica", text: "Pal przy otwartym oknie z wyłączonym wentylatorem/okapem (nie twórz podciśnienia), unikaj palenia w łazience podłączonej do wspólnego kanału, a na balkonie – zwróć uwagę, w którą stronę wiatr niesie dym względem sąsiednich balkonów." },
       { type: "related", slug: "dym-bierny-jak-palenie-szkodzi-rodzinie", title: "Dym bierny — kiedy Twoje palenie staje się problemem innych" },
       { type: "related", slug: "statystyki-palenia-w-polsce-kto-i-ile-pali", title: "Dym po pandemii: kto i ile pali w Polsce?" },
