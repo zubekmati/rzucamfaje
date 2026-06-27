@@ -30,7 +30,7 @@ export default function KalkulatorZdrowiaPage() {
   const today = new Date().toISOString().split("T")[0];
   const [quitDate, setQuitDate] = useState(today);
   const [cigarettesPerDay, setCigarettesPerDay] = useState(20);
-  const [pricePerPack, setPricePerPack] = useState(18);
+  const [pricePerPack, setPricePerPack] = useState(24);
 
   const stats = useMemo(() => {
     const quit = new Date(quitDate);

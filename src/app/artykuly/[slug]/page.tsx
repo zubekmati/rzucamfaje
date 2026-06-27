@@ -155,6 +155,23 @@ function renderBlock(block: Block, index: number) {
   }
 }
 
+/* ─── Schema.org JSON-LD ──────────────────────────────────── */
+
+function ArticleJsonLd({ article }: { article: { slug: string; title: string; excerpt: string; dateISO: string } }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    datePublished: article.dateISO,
+    dateModified: article.dateISO,
+    author: { "@type": "Organization", name: "RzucamFaje.pl", url: "https://rzucamfaje.pl" },
+    publisher: { "@type": "Organization", name: "RzucamFaje.pl", url: "https://rzucamfaje.pl" },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://rzucamfaje.pl/artykuly/${article.slug}` },
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
 /* ─── Page ────────────────────────────────────────────────── */
 
 export default async function ArticlePage({
@@ -179,6 +196,7 @@ export default async function ArticlePage({
 
   return (
     <>
+      <ArticleJsonLd article={article} />
       <SkipLink />
       <Header />
 
