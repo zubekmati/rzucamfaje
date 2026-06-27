@@ -15,12 +15,12 @@ const values = [
   {
     emoji: "🤝",
     title: "Bez osądzania",
-    desc: "Rzucanie palenia to walka z uzależnieniem, nie kwestia silnej woli. Tu nie usłyszysz, że 'po prostu przestań'.",
+    desc: "Rzucanie palenia to walka z uzależnieniem, nie kwestia silnej woli. Bez oceniania, bez presji — piszemy o tym jak jest, nie jak powinno być.",
   },
   {
     emoji: "🔬",
     title: "Rzetelne informacje",
-    desc: "Piszemy o tym, co potwierdza nauka i co sprawdziło się w praktyce. Bez magicznych metod i pseudonauki.",
+    desc: "Opieramy się na dostępnych badaniach i sprawdzonych metodach — ale nie jesteśmy lekarzami. Punkt wyjścia do myślenia, nie ostateczna prawda.",
   },
   {
     emoji: "🙋",
@@ -72,9 +72,9 @@ export default function ONasPage() {
             </h2>
             <div className="prose prose-gray dark:prose-invert max-w-none space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
               <p>
-                Palę od ponad 25 lat. Paczka dziennie — tyle, ile większość palaczy powie że
-                „jakoś tak wyszło". Miałem półtora roku przerwy. Naprawdę — poza dwoma papierosami
-                po 3 miesiącach, których żałowałem już w trakcie.
+                Palę od 21 lat — zacząłem w wieku siedemnastu lat, jak większość, czyli przez przypadek
+                i przez towarzystwo. Paczka dziennie. Miałem półtora roku przerwy. Naprawdę — poza
+                dwoma papierosami po 3 miesiącach, których żałowałem już w trakcie.
               </p>
               <p>
                 Wróciłem przez zmianę pracy. Nowe miejsce, nowi ludzie, stres i — co gorsza — spora
@@ -130,9 +130,10 @@ export default function ONasPage() {
             </h2>
             <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
               RzucamFaje.pl zbudowałem bez wiedzy programistycznej — z pomocą sztucznej inteligencji.
-              Kod, kalkulator i kalendarz powstały w rozmowie z AI. Artykuły są pisane z pomocą AI
-              i weryfikowane przeze mnie — żeby były rzetelne i zgodne z tym, co wiem z własnego
-              doświadczenia. Przy okazji uczę się jak działa internet, SEO i nowe technologie.
+              Kod, kalkulator i kalendarz powstały w rozmowie z AI. Artykuły też — AI robi research
+              i szkic, ja wybieram tematy, czytam i zatwierdzam. Nie udaję, że sprawdzam każde zdanie
+              z badaniem naukowym w ręku. Ale pilnuję żeby nie było bzdur i żeby brzmiało jak człowiek,
+              nie jak content farm. Przy okazji uczę się jak działa internet, SEO i nowe technologie.
               Jeśli Cię to ciekawi — możemy o tym porozmawiać
               przez{" "}
               <Link href="/kontakt" className="text-green-700 dark:text-green-400 underline underline-offset-2 hover:text-green-800">
@@ -169,7 +170,8 @@ export default function ONasPage() {
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-center max-w-xl mx-auto">
               Bo w internecie jest dużo informacji o rzucaniu palenia, ale mało prawdziwych historii.
               Chcę żeby ktoś, kto tu trafi o 23:00 z papierosem w ręku i myślą „może czas przestać",
-              znalazł coś napisanego przez człowieka — a nie przez algorytm zdrowotnego portalu.
+              znalazł coś za czym stoi prawdziwe doświadczenie — a nie portal pisany przez kogoś,
+              kto nigdy nie palił.
             </p>
           </section>
 
