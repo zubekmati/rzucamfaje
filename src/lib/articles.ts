@@ -8,7 +8,8 @@ export type Block =
   | { type: "callout"; variant: "tip" | "info" | "warning"; title: string; text: string }
   | { type: "table"; caption?: string; headers: string[]; rows: string[][] }
   | { type: "divider" }
-  | { type: "related"; slug: string; title: string };
+  | { type: "related"; slug: string; title: string }
+  | { type: "cta"; href: string; text: string; label?: string };
 
 export type Article = {
   slug: string;
@@ -1504,6 +1505,79 @@ const rawArticles: Article[] = [
 
       { type: "divider" },
       { type: "p", text: "Ten artykuł ma charakter informacyjny i nie zastępuje porady dietetycznej ani lekarskiej. Jeśli masz specyficzne potrzeby zdrowotne, skonsultuj się z lekarzem lub dietetykiem." },
+    ],
+  },
+  {
+    slug: "z-czego-jest-zrobiony-papieros",
+    category: "Zdrowie",
+    title: "Z czego jest zrobiony papieros — i ile śmieci po sobie zostawia",
+    excerpt: "Filtr to plastik, nie bawełna. Sreberko w paczce przeżyje 200 lat. A palacz paczki dziennie produkuje rocznie ponad 7 000 filtrów. Sprawdzamy, co tak naprawdę wyrzucasz na ziemię.",
+    readTime: "6 min",
+    date: "27 cze 2026",
+    dateISO: "2026-06-27",
+    emoji: "🗑️",
+    content: [
+      { type: "p", text: "Papieros wygląda prosto: tytoń, papier, filtr. Ale to, z czego jest naprawdę zrobiony — i co z nim zostaje po wypaleniu — jest znacznie bardziej skomplikowane. I znacznie mniej przyjemne." },
+
+      { type: "h2", text: "Składniki papierosa" },
+
+      { type: "h3", text: "Tytoń i dodatki" },
+      { type: "p", text: "Sam tytoń to tylko punkt wyjścia. W przemysłowym papierosie tytoń jest mieszaniną kilku gatunków (Virginia, Burley, Oriental), poddaną obróbce chemicznej. Producenci dodają setki substancji: środki zwilżające (żeby tytoń nie wysychał), środki ułatwiające spalanie, regulatory pH, substancje smakowe i aromaty." },
+      { type: "callout", variant: "info", title: "Ile dodatków?", text: "Unia Europejska wymaga od producentów ujawnienia składników — pełne listy są dostępne publicznie. W zależności od marki tytoń może zawierać od kilkunastu do kilkudziesięciu substancji pomocniczych oprócz samego tytoniu." },
+
+      { type: "h3", text: "Bibułka papierosowa" },
+      { type: "p", text: "Cienki papier z celulozy, często z dodatkiem soli potasowych, które regulują szybkość i równomierność spalania. Traktowany jest tak, żeby papieros gasił się podczas palenia wolniej — co sprzyja głębszemu wciąganiu dymu. Rozkłada się stosunkowo szybko (kilka tygodni), ale jest to papier impregnowany chemicznie, nie zwykły." },
+
+      { type: "h3", text: "Filtr — to nie bawełna, to plastik" },
+      { type: "p", text: "To jeden z najpowszechniejszych mitów: że filtr papierosowy jest z bawełny. Nie jest. Standardowy filtr to włókna octanu celulozy — tworzywa sztucznego produkowanego z celulozy, ale w procesie syntezy chemicznej. Filtr jest plastikowy." },
+      { type: "p", text: "Jeden filtr zawiera tysiące mikroskopijnych włókien octanu celulozy sklejonych ze sobą środkiem plastyfikującym (tri-acetyną). W glebie i wodzie te włókna rozpadają się na coraz mniejsze mikrowłókna — ale nie znikają." },
+      { type: "callout", variant: "warning", title: "W wodzie jest jeszcze gorzej", text: "Mokry pet papierosowy uwalnia do wody nikotynę, metale ciężkie (ołów, kadm, arsen) i inne substancje chemiczne. Jedno badanie (Thomas i wsp., 2011) wykazało, że jeden pet zanurzony w wodzie przez 96 godzin jest toksyczny dla ryb." },
+
+      { type: "h2", text: "Rodzaje filtrów" },
+      { type: "table", caption: "Typy filtrów papierosowych dostępnych na rynku", headers: ["Typ", "Opis", "Rozpoznanie"], rows: [
+        ["Standardowy", "Octan celulozy, biały lub z okładką korkową", "Zdecydowana większość papierosów"],
+        ["Z węglem aktywnym", "Dodatkowa warstwa granulatu węglowego", "Grubszy filtr, widoczne ciemne granulki na przekroju"],
+        ["Z kapsułką", "Kulka z mentolu lub aromatu do pęknięcia", "Słyszalna kapsułka przy ściśnięciu filtra"],
+        ["Slim/super slim", "Węższe filtry", "Cieńsze papierosy, popularne głównie wśród kobiet"],
+        ["Recessed (wysunięty)", "Tytoń odsunięty od ust o kilka mm", "Przestrzeń powietrzna między tytoniem a filtrem"],
+      ]},
+
+      { type: "h2", text: "Składniki paczki" },
+      { type: "p", text: "Sama paczka to kilka warstw materiałów, które lądują w koszu (lub na ziemi) przy każdym otwieraniu:" },
+      { type: "ul", items: [
+        "Zewnętrzna folia (celofan lub poliolefin) — przezroczysta, chroni przed wilgocią",
+        "Karton — właściwe pudełko, pokryte wielokolorowymi farbami drukarskimi",
+        "Sreberko — folia aluminiowa lub metalizowany papier wewnątrz paczki, chroni świeżość tytoniu",
+        "Pasek otwarcia — plastikowy lub papierowy",
+      ]},
+
+      { type: "h2", text: "Ile to się rozkłada — przybliżone czasy" },
+      { type: "table", caption: "Szacunkowe czasy rozkładu składników papierosa i paczki", headers: ["Składnik", "Czas rozkładu", "Uwagi"], rows: [
+        ["Bibułka papierosowa", "kilka tygodni", "Impregnowana chemicznie, wolniejsza niż zwykły papier"],
+        ["Karton paczki", "2–5 miesięcy", "Farby drukarskie spowalniają rozkład"],
+        ["But / filtr (octan celulozy)", "kilka – ponad 10 lat", "Zależy od nasłonecznienia, wilgotności i gleby"],
+        ["Celofan paczki", "10–30 lat", "W zależności od rodzaju folii"],
+        ["Sreberko (folia aluminiowa)", "80–200 lat", "Jeden z najtrwalszych składników"],
+      ]},
+      { type: "callout", variant: "info", title: "Pety a środowisko", text: "Pety papierosowe są od lat najczęściej zbieranym odpadem na plażach świata (Ocean Conservancy, coroczne raporty International Coastal Cleanup). Globalnie szacuje się, że rocznie wyrzucanych jest kilka bilionów filtrów papierosowych." },
+
+      { type: "h2", text: "Ile śmieci produkuje palacz rocznie?" },
+      { type: "p", text: "Przy założeniu, że jeden but waży ok. 0,25 g:" },
+      { type: "table", caption: "Liczba i waga petów papierosowych rocznie w zależności od liczby papierosów", headers: ["Papierosów/dzień", "Petów rocznie", "Waga (g)"], rows: [
+        ["5", "1 825", "456 g"],
+        ["10", "3 650", "913 g"],
+        ["20 (paczka)", "7 300", "1,8 kg"],
+        ["30", "10 950", "2,7 kg"],
+      ]},
+      { type: "p", text: "Palacz paczki dziennie produkuje rocznie ok. 1,8 kg samych filtrów — a przez 10 lat to 18 kg plastiku w środowisku." },
+
+      { type: "cta", href: "/kalkulator-petow", text: "Oblicz swój ślad w środowisku", label: "Kalkulator petów" },
+
+      { type: "related", slug: "co-papierosy-robia-z-twoimi-plucami", title: "Co papierosy robią z Twoimi płucami — i co można jeszcze naprawić" },
+      { type: "related", slug: "dym-bierny-jak-palenie-szkodzi-rodzinie", title: "Dym bierny — kiedy Twoje palenie staje się problemem innych" },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i edukacyjny. Czasy rozkładu materiałów są szacunkowe i zależą od warunków środowiskowych." },
     ],
   },
   {

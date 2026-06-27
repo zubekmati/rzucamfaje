@@ -137,6 +137,23 @@ function renderBlock(block: Block, index: number) {
       );
     case "divider":
       return <hr key={index} className="my-8 border-gray-200 dark:border-gray-700" />;
+    case "cta":
+      return (
+        <div key={index} className="my-6 p-5 rounded-xl border border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-950/30 text-center">
+          {block.label && (
+            <p className="text-xs font-semibold text-green-700 dark:text-green-400 uppercase tracking-wide mb-2">{block.label}</p>
+          )}
+          <Link
+            href={block.href}
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-green-700 dark:bg-green-600 text-white text-sm font-semibold hover:bg-green-800 dark:hover:bg-green-700 transition-colors"
+          >
+            {block.text}
+            <svg aria-hidden="true" className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+      );
     case "related":
       return (
         <Link
