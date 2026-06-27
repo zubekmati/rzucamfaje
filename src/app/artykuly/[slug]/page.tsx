@@ -86,17 +86,17 @@ function renderBlock(block: Block, index: number) {
       );
     case "callout":
       const styles = {
-        tip:     { wrap: "bg-green-50 dark:bg-green-950/30 border-green-200 dark:border-green-800", title: "text-green-800 dark:text-green-300", body: "text-green-700 dark:text-green-400", icon: "💡" },
-        info:    { wrap: "bg-blue-50 dark:bg-blue-950/30 border-blue-200 dark:border-blue-800",    title: "text-blue-800 dark:text-blue-300",  body: "text-blue-700 dark:text-blue-400",  icon: "ℹ️" },
-        warning: { wrap: "bg-amber-50 dark:bg-amber-950/30 border-amber-200 dark:border-amber-800", title: "text-amber-800 dark:text-amber-300", body: "text-amber-700 dark:text-amber-400", icon: "⚠️" },
+        tip:     { wrap: "bg-green-50/50 dark:bg-green-950/15 border-gray-200 dark:border-gray-700 border-l-green-400 dark:border-l-green-600",  title: "text-gray-900 dark:text-gray-100", icon: "💡" },
+        info:    { wrap: "bg-gray-50 dark:bg-gray-800/40 border-gray-200 dark:border-gray-700 border-l-gray-400 dark:border-l-gray-500",          title: "text-gray-900 dark:text-gray-100", icon: "ℹ️" },
+        warning: { wrap: "bg-amber-50/50 dark:bg-amber-950/15 border-gray-200 dark:border-gray-700 border-l-amber-400 dark:border-l-amber-500",  title: "text-gray-900 dark:text-gray-100", icon: "⚠️" },
       }[block.variant];
       return (
-        <aside key={index} className={`rounded-xl border p-4 my-6 ${styles.wrap}`} aria-label={block.title}>
-          <p className={`font-bold text-sm mb-1 flex items-center gap-1.5 ${styles.title}`}>
+        <aside key={index} className={`rounded-lg border border-l-4 pl-4 pr-4 py-3 my-6 ${styles.wrap}`} aria-label={block.title}>
+          <p className={`font-semibold text-sm mb-1 flex items-center gap-1.5 ${styles.title}`}>
             <span aria-hidden="true">{styles.icon}</span>
             {block.title}
           </p>
-          <p className={`text-sm leading-relaxed ${styles.body}`}>{block.text}</p>
+          <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">{block.text}</p>
         </aside>
       );
     case "table":
