@@ -136,6 +136,20 @@ function renderBlock(block: Block, index: number) {
       );
     case "divider":
       return <hr key={index} className="my-8 border-gray-200 dark:border-gray-700" />;
+    case "related":
+      return (
+        <Link
+          key={index}
+          href={`/artykuly/${block.slug}`}
+          className="group flex items-center gap-3 my-6 p-4 rounded-xl border border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-950/30 hover:border-green-400 dark:hover:border-green-600 hover:bg-green-100 dark:hover:bg-green-950/50 transition-all no-underline"
+        >
+          <span className="shrink-0 text-xs font-semibold text-green-700 dark:text-green-400 uppercase tracking-wide">Czytaj też</span>
+          <span className="flex-1 text-sm font-semibold text-gray-900 dark:text-white group-hover:text-green-800 dark:group-hover:text-green-300 transition-colors leading-snug">{block.title}</span>
+          <svg aria-hidden="true" focusable="false" className="shrink-0 w-4 h-4 text-green-600 dark:text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </Link>
+      );
     default:
       return null;
   }
