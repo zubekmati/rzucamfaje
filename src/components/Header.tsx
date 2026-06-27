@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/poradniki", label: "Poradniki" },
   { href: "/kalkulator-zdrowia", label: "Kalkulator zdrowia" },
   { href: "/kalkulator-petow", label: "Kalkulator petów" },
+  { href: "/kalendarz-rzucania", label: "Kalendarz" },
   { href: "/o-nas", label: "O nas" },
 ];
 
