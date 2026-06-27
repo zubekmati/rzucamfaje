@@ -1586,6 +1586,74 @@ const rawArticles: Article[] = [
     ],
   },
   {
+    slug: "jak-pali-sie-papieros-chemia-spalania",
+    category: "Zdrowie",
+    title: "Jak pali się papieros — chemia, 900°C i prawda o filtrze",
+    excerpt: "Czubek papierosa osiąga temperaturę 900°C. Filtr wyłapuje cześć cząstek stałych — ale tlenek węgla przepuszcza w 100%. A papierosy \"light\" to był wieloletni marketingowy trick. Sprawdzamy jak to działa.",
+    readTime: "8 min",
+    date: "28 cze 2026",
+    dateISO: "2026-06-28",
+    emoji: "🔬",
+    content: [
+      { type: "p", text: "Kiedy zapalasz papierosa, uruchamiasz złożony proces chemiczno-fizyczny, który w środku palącego się tytoniu osiąga temperatury wyższe niż w przeciętnym piecu. I produkuje przy tym ponad 4 000 substancji chemicznych. Wszystko w ciągu kilku sekund." },
+
+      { type: "h2", text: "Trzy strefy w płonącym papierosie" },
+      { type: "p", text: "Palący się papieros to nie jeden jednolity ogień — to trzy nakładające się strefy o zupełnie różnych temperaturach i chemii:" },
+      { type: "table", caption: "Strefy temperatury w trakcie palenia papierosa", headers: ["Strefa", "Temperatura", "Co się dzieje"], rows: [
+        ["Żar (spalanie)", "600–900°C", "Tytoń spala się; tu powstaje większość toksyn"],
+        ["Piroliza", "300–600°C", "Cząsteczki organiczne rozpadają się na setki związków"],
+        ["Destylacja", "100–300°C", "Nikotyna i inne lotne substancje odparowują w dym"],
+      ]},
+      { type: "p", text: "Podczas wciągania dymu — żar sięga ok. 900°C. Kiedy papieros tylko się tli między pufnięciami — temperatura spada do ok. 600°C. Ta różnica ma znaczenie: przy niższej temperaturze combustion jest jeszcze bardziej niekompletna, co oznacza więcej toksyn w dymie bocznym." },
+      { type: "callout", variant: "info", title: "Dym boczny jest bardziej toksyczny", text: "Dym unoszący się z żaru między pufnięciami (tzw. sidestream smoke) ma wyższe stężenia niektórych toksyn niż dym wdychany przez palacza. Niższa temperatura = bardziej niekompletne spalanie = więcej szkodliwych produktów ubocznych. Dlatego bierne palenie szkodzi nawet osobom stojącym w pobliżu nieaktywnie palącego się papierosa." },
+
+      { type: "h2", text: "Skąd pochodzi tlenek węgla?" },
+      { type: "p", text: "CO — tlenek węgla — to bezbarwny, bezwonny gaz produkowany przy każdym niekompletnym spalaniu. W silniku samochodowym, w kominku i właśnie w papierosie." },
+      { type: "p", text: "Pełne spalanie wygląda tak: węgiel + tlen → dwutlenek węgla (CO₂). Ale w żarze papierosa dostęp tlenu jest ograniczony — i zamiast CO₂ powstaje CO. Jeden papieros produkuje ok. 10–23 mg tlenku węgla (pomiary maszynowe wg ISO)." },
+      { type: "p", text: "CO wiąże się z hemoglobiną — białkiem transportującym tlen we krwi — ok. 200 razy silniej niż sam tlen. Cząsteczka hemoglobiny, która złapała CO, jest zablokowana i nie może przez wiele godzin transportować tlenu. U aktywnych palaczy nawet 5–15% całej hemoglobiny może być w ten sposób zablokowane." },
+      { type: "callout", variant: "tip", title: "Test oddechu w klinikach antynikotynowych", text: "CO w wydychanym powietrzu można zmierzyć prostym urządzeniem w kilka sekund — podobnie jak alkohol w alkomacie. Poradnie antytytoniowe i NFZ używają tych mierników do weryfikacji abstynencji. U osoby niepalącej CO w oddechu wynosi ok. 1–3 ppm; u aktywnego palacza zwykle powyżej 10–20 ppm." },
+
+      { type: "h2", text: "Co jest w dymie — liczby" },
+      { type: "p", text: "W dymie papierosowym zidentyfikowano ponad 4 000 substancji chemicznych. Wynika to z pirolitycznego rozkładu setek związków organicznych zawartych w tytoniu i dodatkach." },
+      { type: "ul", items: [
+        "Ok. 70 substancji sklasyfikowanych jako kancerogeny (IARC/WHO)",
+        "Nikotyna: 0,5–3 mg dostarczane do palacza per papieros (zależy od marki i sposobu palenia)",
+        "Tlenek węgla: 10–23 mg per papieros",
+        "Formaldehyd, akroleina, benzopiren, nitrozaminy — każda z osobna ma dowiedzioną toksyczność",
+        "Metale ciężkie: kadm, ołów, arsen — w ilościach śladowych, ale kumulują się latami w tkankach",
+      ]},
+
+      { type: "h2", text: "Ile toksyn wyłapuje filtr — i jak to się mierzy?" },
+      { type: "p", text: "Filtr papierosowy (z octanu celulozy) zatrzymuje część cząstek stałych unoszących się w dymie — czyli tzw. smołę (tar). Ale nie wszystko." },
+      { type: "h3", text: "Metoda Cambridge (ISO 4387) — jak mierzą \"mg tar\" na paczce" },
+      { type: "p", text: "Wszystkie wartości na paczkach papierosów (mg tar, mg nikotyny, mg CO) są mierzone maszyną według standardu ISO 4387. Maszyna zaciąga 35 ml dymu przez 2 sekundy, raz na minutę, aż do wypalenia papierosa. Cząstki stałe zatrzymywane są na specjalnym filtrze szklanym (tzw. filtr Cambridge), który waży się przed i po paleniu." },
+      { type: "callout", variant: "info", title: "Ile wyłapuje filtr papierosowy?", text: "Standard cellulose acetate filter zatrzymuje ok. 40–60% cząstek stałych (smoły) z dymu, zależy od konstrukcji. Ale gazy — tlenek węgla, formaldehyd, cyjanowodór, akroleina — przechodzą przez filtr praktycznie bez zmian. Filtr jest barierą dla pyłów, nie dla gazów." },
+      { type: "p", text: "Możesz to zobaczyć gołym okiem: filtr po wypaleniu papierosa jest żółtobrązowy od zatrzymanej smoły. Tyle wyłapał. To, co przeszło do płuc, pozostało bezbarwne — ale równie toksyczne." },
+
+      { type: "h2", text: "Papierosy \"light\" — jak wieloletni trick marketingowy działał" },
+      { type: "p", text: "Przez dekady producenci sprzedawali papierosy \"light\", \"mild\", \"ultra light\" — sugerując, że są mniej szkodliwe. UE zakazała tych oznaczeń, bo badania wykazały, że palacze nie palą tak jak maszyna pomiarowa." },
+      { type: "h3", text: "Jak działały \"light\" papierosy" },
+      { type: "p", text: "W okrągłej okładce filtra laserowo nawiercone były maleńkie otworki wentylacyjne. Podczas testu maszynowego: otwory niezakryte → powietrze rozcieńcza dym → niższy wynik tar/nikotyny. Marketingowy sukces: \"tylko 5 mg tar\" zamiast 12 mg." },
+      { type: "p", text: "Problem: prawdziwi palacze nieświadomie zakrywają te otworki palcami lub wargami. Maszyna nie ma palców. W efekcie rzeczywista dawka toksyn była porównywalna z \"mocnymi\" papierosami." },
+      { type: "callout", variant: "warning", title: "Kompensacja — ukryty mechanizm", text: "Palacze \"light\" papierosów często nieświadomie kompensują niższy poziom nikotyny: biorą głębsze wdechy, trzymają dym dłużej, palą więcej papierosów dziennie. Badania pokazały, że na poziomie biomarkerów we krwi palacze \"light\" i \"mocnych\" papierosów mają podobną ekspozycję na toksyny." },
+
+      { type: "h2", text: "Samogasnące papierosy — test ISO 12863" },
+      { type: "p", text: "Skoro temat fizyki i chemii papierosa — warto wiedzieć też jak testuje się samogaśnięcie (FSC, Fire Safe Cigarettes), które UE wymaga od 2011 roku." },
+      { type: "p", text: "Test wygląda tak: zapalony papieros układa się poziomo na 10 warstwach specjalnego papieru filtracyjnego i obserwuje, czy się nie sam gasi, czy też podpali podłoże. Powtarza się to 40 razy. Żeby przejść test, co najwyżej 25% papierosów (czyli max 10 na 40) może podpalić podłoże — pozostałe muszą zgasnąć samoczynnie." },
+      { type: "p", text: "Mechanizm: dwa pierścienie bibułki o niższej przepuszczalności powietrza przerywają dostęp tlenu do żaru w momencie, gdy nikt aktywnie nie ciągnie dymu. Bez tlenu — żar gaśnie." },
+      { type: "related", slug: "z-czego-jest-zrobiony-papieros", title: "Z czego jest zrobiony papieros — i ile śmieci po sobie zostawia" },
+
+      { type: "h2", text: "Co z tego wynika dla zdrowia?" },
+      { type: "p", text: "Filtr nie chroni tak, jak można by myśleć. CO, formaldehyd, cyjanowodór — przechodzą swobodnie. Smołę filtr łapie w połowie, resztę dostarczasz do płuc. Papierosy \"light\" to był mit. A dym boczny z tlącego się papierosa jest bardziej stężony niż ten wdychany przez palacza." },
+      { type: "p", text: "Każde \"ale przynajmniej filtr coś łapie\" jest prawdą — ale nie zmienia rachunku toksynologicznego na tyle, żeby miało znaczenie kliniczne dla ryzyka chorób." },
+      { type: "related", slug: "co-papierosy-robia-z-twoimi-plucami", title: "Co papierosy robią z Twoimi płucami — i co można jeszcze naprawić" },
+      { type: "related", slug: "dym-bierny-jak-palenie-szkodzi-rodzinie", title: "Dym bierny — kiedy Twoje palenie staje się problemem innych" },
+
+      { type: "divider" },
+      { type: "p", text: "Ten artykuł ma charakter informacyjny i edukacyjny i nie zastępuje porady lekarskiej. Dane liczbowe (mg tar, CO) dotyczą pomiarów maszynowych wg norm ISO — rzeczywista ekspozycja palacza zależy od sposobu palenia." },
+    ],
+  },
+  {
     slug: "palenie-a-rak",
     category: "Zdrowie",
     title: "Palenie a rak — jakie nowotwory grożą palaczom i co się zmienia po rzuceniu",
@@ -1647,6 +1715,6 @@ const rawArticles: Article[] = [
   },
 ];
 
-export const articles: Article[] = [...rawArticles].sort(
-  (a, b) => b.dateISO.localeCompare(a.dateISO)
-);
+export const articles: Article[] = [...rawArticles]
+  .filter(a => a.dateISO <= new Date().toISOString().split("T")[0])
+  .sort((a, b) => b.dateISO.localeCompare(a.dateISO));
