@@ -59,7 +59,7 @@ export default function Footer() {
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed">
               Portal wsparcia dla osób rzucających palenie. Rzetelne informacje,
-              ciepła społeczność, zero osądzania.
+              szczere rozmowy, zero osądzania.
             </p>
           </div>
 
