@@ -165,16 +165,16 @@ export default function KalkulatorPetowPage() {
           {/* Lifetime weight context */}
           <section
             aria-labelledby="context-heading"
-            className="bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-800 rounded-2xl p-6"
+            className="bg-gray-50 dark:bg-gray-800/40 border border-gray-200 dark:border-gray-700 rounded-2xl p-6"
           >
-            <h2 id="context-heading" className="text-base font-bold text-orange-900 dark:text-orange-300 mb-2">
+            <h2 id="context-heading" className="text-base font-bold text-gray-900 dark:text-gray-100 mb-2">
               Co to znaczy w praktyce?
             </h2>
-            <p className="text-sm text-orange-800 dark:text-orange-400 mb-1">
+            <p className="text-sm text-gray-700 dark:text-gray-300 mb-1">
               Przez {years} {plural(years, "rok", "lata", "lat")} palenia wypaliłeś/aś papierosy
               o łącznej wadze filtrów <strong>{stats.weightLifetimeKg.toFixed(1).replace(".", ",")} kg</strong>.
             </p>
-            <p className="text-sm text-orange-800 dark:text-orange-400">
+            <p className="text-sm text-gray-700 dark:text-gray-300">
               Filtr papierosowy to plastik (octan celulozy) — nie rozkłada się w glebie przez wiele lat.
               W wodzie uwalnia nikotynę, metale ciężkie i mikrowłókna do ekosystemu.
             </p>

@@ -372,7 +372,7 @@ export default function KalendarzRzucaniaPage() {
                         isChecked
                           ? "border-green-600 bg-green-50 dark:bg-green-900/30 dark:border-green-500 shadow-sm"
                           : past
-                            ? "border-amber-200 dark:border-amber-800 bg-amber-50/30 dark:bg-amber-950/20 hover:border-green-400 dark:hover:border-green-600"
+                            ? "border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800/30 hover:border-green-400 dark:hover:border-green-600"
                             : "border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 hover:border-green-400 dark:hover:border-green-600",
                       ].join(" ")}
                     >

@@ -193,15 +193,15 @@ export default function KalkulatorZdrowiaPage() {
           {stats.nextMilestone && stats.daysToNext !== null && (
             <section
               aria-labelledby="next-milestone-heading"
-              className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-2xl p-6"
+              className="bg-gray-50 dark:bg-gray-800/40 border-l-4 border-l-green-500 dark:border-l-green-600 border border-gray-200 dark:border-gray-700 rounded-lg p-6"
             >
-              <h2 id="next-milestone-heading" className="text-base font-bold text-green-900 dark:text-green-300 mb-1">
+              <h2 id="next-milestone-heading" className="text-base font-bold text-gray-900 dark:text-gray-100 mb-1">
                 Następny kamień milowy – {stats.nextMilestone.label}
               </h2>
-              <p className="text-sm text-green-800 dark:text-green-400 mb-2">
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
                 {stats.nextMilestone.desc}
               </p>
-              <p className="text-sm font-semibold text-green-700 dark:text-green-400">
+              <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">
                 Zostało{" "}
                 <strong>
                   {stats.daysToNext} {plural(stats.daysToNext, "dzień", "dni", "dni")}
