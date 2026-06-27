@@ -200,7 +200,7 @@ export default function KalkulatorPetowPage() {
                   {[
                     ["Bibułka papierosowa", "kilka tygodni"],
                     ["Karton paczki", "2–5 miesięcy"],
-                    ["But / filtr (octan celulozy)", "kilka – ponad 10 lat"],
+                    ["Filtr papierosowy (octan celulozy)", "kilka – ponad 10 lat"],
                     ["Celofan paczki", "10–30 lat"],
                     ["Sreberko (folia aluminiowa)", "80–200 lat"],
                   ].map(([item, time]) => (

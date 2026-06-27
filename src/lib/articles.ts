@@ -1555,14 +1555,14 @@ const rawArticles: Article[] = [
       { type: "table", caption: "Szacunkowe czasy rozkładu składników papierosa i paczki", headers: ["Składnik", "Czas rozkładu", "Uwagi"], rows: [
         ["Bibułka papierosowa", "kilka tygodni", "Impregnowana chemicznie, wolniejsza niż zwykły papier"],
         ["Karton paczki", "2–5 miesięcy", "Farby drukarskie spowalniają rozkład"],
-        ["But / filtr (octan celulozy)", "kilka – ponad 10 lat", "Zależy od nasłonecznienia, wilgotności i gleby"],
+        ["Filtr papierosowy (octan celulozy)", "kilka – ponad 10 lat", "Zależy od nasłonecznienia, wilgotności i gleby"],
         ["Celofan paczki", "10–30 lat", "W zależności od rodzaju folii"],
         ["Sreberko (folia aluminiowa)", "80–200 lat", "Jeden z najtrwalszych składników"],
       ]},
       { type: "callout", variant: "info", title: "Pety a środowisko", text: "Pety papierosowe są od lat najczęściej zbieranym odpadem na plażach świata (Ocean Conservancy, coroczne raporty International Coastal Cleanup). Globalnie szacuje się, że rocznie wyrzucanych jest kilka bilionów filtrów papierosowych." },
 
       { type: "h2", text: "Ile śmieci produkuje palacz rocznie?" },
-      { type: "p", text: "Przy założeniu, że jeden but waży ok. 0,25 g:" },
+      { type: "p", text: "Przy założeniu, że jeden wypalony filtr waży ok. 0,25 g:" },
       { type: "table", caption: "Liczba i waga petów papierosowych rocznie w zależności od liczby papierosów", headers: ["Papierosów/dzień", "Petów rocznie", "Waga (g)"], rows: [
         ["5", "1 825", "456 g"],
         ["10", "3 650", "913 g"],
