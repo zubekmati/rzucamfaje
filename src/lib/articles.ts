@@ -455,7 +455,7 @@ const rawArticles: Article[] = [
   },
   {
     slug: "glod-nikotynowy-co-to-jest-jak-przetrwac",
-    category: "Techniki",
+    category: "Poradnik",
     title: "Głód nikotynowy — co to jest, ile trwa i jak przetrwać najtrudniejsze chwile",
     excerpt: "Głód nikotynowy trwa zwykle 3–5 minut — i sam mija. Oto co robić w tym czasie, i kiedy jest najgorzej.",
     readTime: "5 min",
@@ -554,7 +554,7 @@ const rawArticles: Article[] = [
   },
   {
     slug: "metody-rzucania-palenia-co-dziala",
-    category: "Leczenie",
+    category: "Poradnik",
     title: "Które metody rzucania palenia naprawdę działają? Przegląd badań",
     excerpt: "Hipnoza, akupunktura, aplikacje, NRT, leki — ile z tego ma dowody naukowe, a ile to marketing? Sprawdzamy dane z badań klinicznych.",
     readTime: "6 min",
@@ -597,7 +597,7 @@ const rawArticles: Article[] = [
   },
   {
     slug: "rzucic-z-dnia-na-dzien-czy-stopniowo",
-    category: "Techniki",
+    category: "Poradnik",
     title: "Rzucić z dnia na dzień czy stopniowo ograniczać? Co mówią badania",
     excerpt: "Dwa podejścia, jedno pytanie: które jest skuteczniejsze? Przegląd badań wskazuje na zwycięzcę — ale ważniejsze jest to, co pasuje Tobie.",
     readTime: "4 min",
@@ -702,7 +702,7 @@ const rawArticles: Article[] = [
   },
   {
     slug: "palenie-w-ciazy-ryzyko-jak-rzucic",
-    category: "Zdrowie",
+    category: "Poradnik",
     title: "Palenie w ciąży — ryzyko dla dziecka i jak rzucić, gdy liczy się każdy dzień",
     excerpt: "Palenie w ciąży zwiększa ryzyko poronienia, porodu przedwczesnego i niskiej masy urodzeniowej. Oto co wiemy i jak uzyskać wsparcie.",
     readTime: "5 min",
