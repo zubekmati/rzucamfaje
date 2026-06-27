@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   title: "O nas – RzucamFaje.pl",
   alternates: { canonical: "/o-nas" },
   description:
-    "Kim jesteśmy i dlaczego powstał RzucamFaje.pl. Historia portalu i misja, którą realizujemy każdego dnia.",
+    "RzucamFaje.pl założył Adam — palacz z 25-letnim stażem, który raz już rzucił i chce rzucić znowu. Strona powstała dla niego i dla Ciebie.",
 };
 
 const values = [
   {
     emoji: "🤝",
     title: "Bez osądzania",
-    desc: "Rzucanie palenia to walka z uzależnieniem, nie kwestia silnej woli. Tu nie usłyszysz, że \"po prostu przestań\".",
+    desc: "Rzucanie palenia to walka z uzależnieniem, nie kwestia silnej woli. Tu nie usłyszysz, że „po prostu przestań".",
   },
   {
     emoji: "🔬",
@@ -23,29 +23,14 @@ const values = [
     desc: "Piszemy o tym, co potwierdza nauka i co sprawdziło się w praktyce. Bez magicznych metod i pseudonauki.",
   },
   {
-    emoji: "❤️",
-    title: "Ludzki głos",
-    desc: "Nie jesteśmy firmą farmaceutyczną ani instytucją zdrowotną. Jesteśmy ludźmi, którzy sami przez to przeszli.",
+    emoji: "🙋",
+    title: "Głos palacza, nie eksperta",
+    desc: "Nie jesteśmy kliniką ani instytutem zdrowia. Jesteśmy osobą, która przez to przechodzi — i która szuka odpowiedzi razem z Tobą.",
   },
   {
     emoji: "🌱",
     title: "Długofalowe wsparcie",
-    desc: "Rzucenie palenia to proces, nie jednorazowe wydarzenie. Jesteśmy tu na każdym etapie – od pierwszego dnia do pierwszego roku.",
-  },
-];
-
-const team = [
-  {
-    name: "Tomek",
-    role: "Założyciel i autor",
-    bio: "Palił przez 23 lata. Rzucił w 2023 roku z pomocą dobrego lekarza i wareniklinę. Stworzył RzucamFaje.pl, bo chciał napisać to, czego sam szukał – bez ściemy i bez moralizowania.",
-    emoji: "🌿",
-  },
-  {
-    name: "Ania",
-    role: "Redaktor i korektor",
-    bio: "Psycholog z wykształcenia, mama dwójki dzieci. Dba o to, żeby treści na portalu były merytoryczne, ale też ludzkie i dostępne dla każdego.",
-    emoji: "📖",
+    desc: "Rzucenie palenia to proces, nie jednorazowe wydarzenie. Jesteśmy tu na każdym etapie — od pierwszego dnia do pierwszego roku.",
   },
 ];
 
@@ -72,8 +57,8 @@ export default function ONasPage() {
               O nas
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl">
-              RzucamFaje.pl to portal wsparcia dla osób, które chcą rzucić palenie. Piszemy o tym,
-              przez co sami przeszliśmy – bez marketingowego owijania w bawełnę.
+              RzucamFaje.pl to portal pisany przez palacza dla palaczy. Bez lukrowania,
+              bez moralizowania, bez udawania że jest łatwo.
             </p>
           </div>
         </section>
@@ -83,31 +68,83 @@ export default function ONasPage() {
           {/* Origin story */}
           <section aria-labelledby="story-heading">
             <h2 id="story-heading" className="text-2xl font-bold text-gray-900 dark:text-white mb-5">
-              Skąd się wzięliśmy
+              Skąd się wzięła ta strona
             </h2>
             <div className="prose prose-gray dark:prose-invert max-w-none space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
               <p>
-                W 2023 roku Tomek – założyciel portalu – rzucił palenie po 23 latach nałogu. Kiedy
-                szukał w internecie wsparcia po polsku, znajdował głównie albo suche artykuły medyczne,
-                albo reklamy plastrów nikotynowych, albo fora internetowe z komentarzami sprzed dekady.
+                Palę od ponad 25 lat. Paczka dziennie — tyle, ile większość palaczy powie że
+                „jakoś tak wyszło". Miałem półtora roku przerwy. Naprawdę — półtora roku bez jednego
+                papierosa.
               </p>
               <p>
-                Brakowało czegoś prostego: strony, którą napisał ktoś, kto naprawdę przez to przeszedł.
-                Kogoś, kto nie moralizuje, nie sprzedaje cudownych metod i mówi wprost, co jest trudne,
-                a co naprawdę pomaga.
+                Wróciłem przez zmianę pracy. Nowe miejsce, nowi ludzie, stres i — co gorsza — spora
+                część nowych kolegów paliła. Nie złamał mnie jeden papieros u znajomych na imprezie
+                (to przeżyłem po 3 miesiącach i przez kolejny rok dalej nie paliłem). Złamała mnie
+                codzienność — przerwy papierosowe, dym przy wejściu do biura, rozmowy przy zapalniczce.
+                Tydzień i wróciłem do nałogu.
               </p>
               <p>
-                RzucamFaje.pl powstał jako odpowiedź na tę lukę – ruszyliśmy w czerwcu 2026. Jesteśmy
-                na początku drogi, ale każdy artykuł piszemy tak, jak sami chcielibyśmy go przeczytać
-                kilka lat temu.
+                Kiedy szukałem w internecie czegoś po polsku o rzucaniu palenia, trafiałem albo na
+                suche artykuły medyczne, albo na reklamy plastrów, albo na fora sprzed dekady.
+                Nikt nie pisał tak jak ja myślę o papierosach — że niektóre momenty po prostu
+                lubię, że papieros ze słuchawkami i muzyką to coś więcej niż nikotyna,
+                że po jedzeniu chcę ten smak i to podrażnienie w gardle, i że doskonale wiem
+                że to bez sensu, ale i tak chcę.
+              </p>
+              <p>
+                Więc zbuduję stronę, której szukałem. Dla siebie — bo pisanie o tym pomaga myśleć.
+                I może dla Ciebie, jeśli też tutaj trafiłeś szukając czegoś prawdziwego.
               </p>
             </div>
+          </section>
+
+          {/* Founder */}
+          <section aria-labelledby="team-heading">
+            <h2 id="team-heading" className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+              Kto za tym stoi
+            </h2>
+            <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 p-6 shadow-sm flex gap-5">
+              <div
+                aria-hidden="true"
+                className="flex-shrink-0 w-14 h-14 rounded-xl bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-3xl"
+              >
+                🚬
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-gray-900 dark:text-white">Adam</h3>
+                <p className="text-xs font-semibold text-green-700 dark:text-green-400 mb-3">Założyciel — palacz w trakcie rzucania</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                  25 lat palenia, półtora roku przerwy, powrót przez stres i nowe środowisko pracy.
+                  Buduje tę stronę żeby uporządkować własne myśli o nałogu — i przy okazji uczy się
+                  nowych technologii. Strona powstała z pomocą AI, bez jednej linijki kodu pisanej ręcznie.
+                  Jeśli kiedykolwiek rzuci definitywnie, tu o tym napisze jako pierwszy.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* AI note */}
+          <section aria-labelledby="ai-heading" className="bg-gray-50 dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-700 p-6">
+            <h2 id="ai-heading" className="text-lg font-bold text-gray-900 dark:text-white mb-3">
+              Strona powstała z pomocą AI
+            </h2>
+            <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+              RzucamFaje.pl zbudowałem bez wiedzy programistycznej — z pomocą sztucznej inteligencji.
+              Artykuły, kalkulator, kalendarz, cały kod — powstały w rozmowie z AI, któremu tłumaczyłem
+              co chcę osiągnąć. Przy okazji uczę się jak działa internet, SEO, technologie webowe
+              i jak budować produkty cyfrowe od zera. Jeśli Cię to ciekawi — możemy o tym porozmawiać
+              przez{" "}
+              <Link href="/kontakt" className="text-green-700 dark:text-green-400 underline underline-offset-2 hover:text-green-800">
+                formularz kontaktowy
+              </Link>
+              .
+            </p>
           </section>
 
           {/* Values */}
           <section aria-labelledby="values-heading">
             <h2 id="values-heading" className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-              Nasze wartości
+              Czym się kierujemy
             </h2>
             <ul role="list" className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {values.map((v) => (
@@ -123,57 +160,31 @@ export default function ONasPage() {
             </ul>
           </section>
 
-          {/* Team */}
-          <section aria-labelledby="team-heading">
-            <h2 id="team-heading" className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-              Kto za tym stoi
-            </h2>
-            <ul role="list" className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              {team.map((person) => (
-                <li
-                  key={person.name}
-                  className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 p-6 shadow-sm flex gap-4"
-                >
-                  <div
-                    aria-hidden="true"
-                    className="flex-shrink-0 w-12 h-12 rounded-xl bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-2xl"
-                  >
-                    {person.emoji}
-                  </div>
-                  <div>
-                    <h3 className="text-base font-bold text-gray-900 dark:text-white">{person.name}</h3>
-                    <p className="text-xs font-semibold text-green-700 dark:text-green-400 mb-2">{person.role}</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{person.bio}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </section>
-
           {/* Mission */}
           <section aria-labelledby="mission-heading" className="bg-green-50 dark:bg-green-900/20 rounded-2xl border border-green-100 dark:border-green-800 p-8">
             <h2 id="mission-heading" className="text-xl font-bold text-gray-900 dark:text-white mb-3 text-center">
-              Nasza misja
+              Po co to wszystko?
             </h2>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-center max-w-xl mx-auto">
-              Ruszyliśmy w czerwcu 2026. Jesteśmy na początku drogi – ale każdy artykuł piszemy
-              z głową, bez lania wody.
+              Bo w internecie jest dużo informacji o rzucaniu palenia, ale mało prawdziwych historii.
+              Chcę żeby ktoś, kto tu trafi o 23:00 z papierosem w ręku i myślą „może czas przestać",
+              znalazł coś napisanego przez człowieka — a nie przez algorytm zdrowotnego portalu.
             </p>
           </section>
 
           {/* CTA */}
           <section className="text-center">
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-              Masz pytania? Napisz do nas.
+              Masz pytania? Napisz.
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-5">
-              Czytamy każdą wiadomość i staramy się odpowiadać na wszystkie.
+              Czytam każdą wiadomość. Serio.
             </p>
             <Link
               href="/kontakt"
               className="inline-flex items-center px-6 py-3 rounded-xl bg-green-700 dark:bg-green-600 text-white font-semibold hover:bg-green-800 dark:hover:bg-green-700 transition-colors"
             >
-              Skontaktuj się z nami
+              Skontaktuj się
             </Link>
           </section>
 
