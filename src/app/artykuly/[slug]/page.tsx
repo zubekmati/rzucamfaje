@@ -137,6 +137,22 @@ function renderBlock(block: Block, index: number) {
       );
     case "divider":
       return <hr key={index} className="my-8 border-gray-200 dark:border-gray-700" />;
+    case "image":
+      return (
+        <figure key={index} className="my-6">
+          <img
+            src={block.src}
+            alt={block.alt}
+            loading="lazy"
+            className="rounded-xl border border-gray-200 dark:border-gray-700 w-full"
+          />
+          {block.caption && (
+            <figcaption className="text-xs text-gray-500 dark:text-gray-500 mt-2 text-center">
+              {block.caption}
+            </figcaption>
+          )}
+        </figure>
+      );
     case "cta":
       return (
         <div key={index} className="my-6 p-5 rounded-xl border border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-950/30 text-center">

@@ -9,6 +9,7 @@ const footerNavGroups: { heading: string; links: FooterLink[] }[] = [
       { href: "/artykuly", label: "Artykuły" },
       { href: "/poradniki", label: "Poradniki" },
       { href: "/kalkulator-zdrowia", label: "Kalkulator zdrowia" },
+      { href: "/kalendarz-rzucania", label: "Kalendarz 30 dni" },
       { href: "/o-nas", label: "O nas" },
     ],
   },
