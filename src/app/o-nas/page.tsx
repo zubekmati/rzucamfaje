@@ -15,22 +15,22 @@ const values = [
   {
     emoji: "🤝",
     title: "Bez osądzania",
-    desc: "Rzucanie palenia to walka z uzależnieniem, nie kwestia silnej woli. Bez oceniania, bez presji — piszemy o tym jak jest, nie jak powinno być.",
+    desc: "Rzucanie palenia to walka z uzależnieniem, nie kwestia silnej woli. Bez oceniania, bez presji — piszę o tym jak jest, nie jak powinno być.",
   },
   {
     emoji: "🔬",
-    title: "Rzetelne informacje",
-    desc: "Opieramy się na dostępnych badaniach i sprawdzonych metodach — ale nie jesteśmy lekarzami. Punkt wyjścia do myślenia, nie ostateczna prawda.",
+    title: "Bez pseudonauki",
+    desc: "Opieram się na dostępnych badaniach i sprawdzonych metodach — ale nie jestem lekarzem. Punkt wyjścia do myślenia, nie ostateczna prawda.",
   },
   {
     emoji: "🙋",
     title: "Głos palacza, nie eksperta",
-    desc: "Nie jesteśmy kliniką ani instytutem zdrowia. Jesteśmy osobą, która przez to przechodzi — i która szuka odpowiedzi razem z Tobą.",
+    desc: "Nie jestem kliniką ani instytutem zdrowia. Jestem osobą, która przez to przechodzi — i która szuka odpowiedzi razem z Tobą.",
   },
   {
     emoji: "🌱",
     title: "Długofalowe wsparcie",
-    desc: "Rzucenie palenia to proces, nie jednorazowe wydarzenie. Jesteśmy tu na każdym etapie — od pierwszego dnia do pierwszego roku.",
+    desc: "Rzucenie palenia to proces, nie jednorazowe wydarzenie. Jestem tu na każdym etapie — od pierwszego dnia do pierwszego roku.",
   },
 ];
 
@@ -170,7 +170,7 @@ export default function ONasPage() {
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-center max-w-xl mx-auto">
               Bo w internecie jest dużo informacji o rzucaniu palenia, ale mało prawdziwych historii.
               Chcę żeby ktoś, kto tu trafi o 23:00 z papierosem w ręku i myślą „może czas przestać",
-              znalazł coś za czym stoi prawdziwe doświadczenie — a nie portal pisany przez kogoś,
+              znalazł coś za czym stoi prawdziwe doświadczenie — a nie portal prowadzony przez kogoś,
               kto nigdy nie palił.
             </p>
           </section>
