@@ -17,6 +17,15 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/artykuly/pluca-po-rzuceniu-palenia-dzien-po-dniu",
+        destination: "/artykuly/co-sie-dzieje-z-twoim-cialem-po-ostatnim-papierosie",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
