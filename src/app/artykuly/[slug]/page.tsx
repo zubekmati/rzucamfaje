@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import SkipLink from "@/components/SkipLink";
 import Footer from "@/components/Footer";
 import { articles, CATEGORY_COLORS, type Block } from "@/lib/articles";
+import TextToSpeech from "@/components/TextToSpeech";
 
 /* ─── Static generation ───────────────────────────────────── */
 
@@ -25,6 +26,26 @@ export async function generateMetadata({
     description: article.excerpt,
     alternates: { canonical: `/artykuly/${slug}` },
   };
+}
+
+/* ─── Text extraction for TTS ────────────────────────────── */
+
+function extractText(content: Block[]): string {
+  return content
+    .flatMap((block) => {
+      switch (block.type) {
+        case "p":      return [block.text];
+        case "h2":     return [block.text];
+        case "h3":     return [block.text];
+        case "ul":     return block.items;
+        case "ol":     return block.items;
+        case "quote":  return [block.text, block.author ? `— ${block.author}` : ""].filter(Boolean);
+        case "callout": return [`${block.title}. ${block.text}`];
+        case "table":  return [block.headers.join(", "), ...block.rows.map((r) => r.join(", "))];
+        default:       return [];
+      }
+    })
+    .join(" ");
 }
 
 /* ─── Content block renderer ──────────────────────────────── */
@@ -356,6 +377,11 @@ export default async function ArticlePage({
                 </div>
               </div>
             </header>
+
+            {/* Text-to-speech */}
+            <div className="mb-8">
+              <TextToSpeech text={extractText(article.content)} />
+            </div>
 
             {/* Article body */}
             <div className="prose-article space-y-5 text-base sm:text-[1.0625rem]">

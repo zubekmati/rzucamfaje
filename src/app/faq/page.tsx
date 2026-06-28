@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import SkipLink from "@/components/SkipLink";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import TextToSpeech from "@/components/TextToSpeech";
 
 const faqItems = [
   {
@@ -116,6 +117,13 @@ export default function FaqPage() {
         </section>
 
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+          <div className="mb-6">
+            <TextToSpeech
+              text={faqItems.map((item) => `${item.q} ${item.a}`).join(" ")}
+              label="Odsłuchaj wszystkie pytania"
+            />
+          </div>
 
           <dl className="space-y-3">
             {faqItems.map((item) => {
