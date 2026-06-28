@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
+import AccessibilityWidget from "./AccessibilityWidget";
 
 const navLinks = [
   { href: "/artykuly", label: "Artykuły" },
@@ -74,6 +75,7 @@ export default function Header() {
           {/* Right-side controls */}
           <div className="flex items-center gap-2">
             <ThemeToggle />
+            <AccessibilityWidget />
 
             <Link
               href="/zacznij-dzis"

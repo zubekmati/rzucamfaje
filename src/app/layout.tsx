@@ -35,7 +35,7 @@ export default function RootLayout({
          */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem("theme");var d=window.matchMedia("(prefers-color-scheme: dark)").matches;if(t==="dark"||(t!=="light"&&d)){document.documentElement.classList.add("dark")}}catch(e){}})()`,
+            __html: `(function(){try{var t=localStorage.getItem("theme");var d=window.matchMedia("(prefers-color-scheme: dark)").matches;if(t==="dark"||(t!=="light"&&d)){document.documentElement.classList.add("dark")}var s=parseFloat(localStorage.getItem("a11y-font-scale")||"1");if(s&&s!==1){document.documentElement.style.fontSize=(s*100)+"%"}if(localStorage.getItem("a11y-high-contrast")==="true"){document.documentElement.classList.add("high-contrast")}if(localStorage.getItem("a11y-underline-links")==="true"){document.documentElement.classList.add("underline-links")}}catch(e){}})()`,
           }}
         />
       </head>

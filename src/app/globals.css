@@ -27,3 +27,65 @@
     }
   }
 }
+
+/* ── Accessibility: High Contrast ──────────────────────────────────────────── */
+
+html.high-contrast,
+html.high-contrast body {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+html.high-contrast :is(header, main, footer, nav, section, article, aside, div) {
+  background-color: #000 !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+html.high-contrast :is(p, h1, h2, h3, h4, h5, h6, li, td, th, span, label, time, strong, em, small) {
+  color: #fff !important;
+}
+
+html.high-contrast a {
+  color: #ffff00 !important;
+  text-decoration: underline !important;
+}
+
+html.high-contrast button:not([role="switch"]) {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+  outline: none !important;
+}
+
+html.high-contrast [role="switch"] {
+  border: 2px solid #fff !important;
+  outline: none !important;
+}
+
+html.high-contrast [role="switch"][aria-checked="false"] {
+  background-color: #333 !important;
+}
+
+html.high-contrast [role="switch"][aria-checked="true"] {
+  background-color: #006600 !important;
+}
+
+html.high-contrast [role="switch"] > span {
+  background-color: #fff !important;
+}
+
+html.high-contrast svg {
+  background-color: transparent !important;
+}
+
+html.high-contrast img {
+  filter: grayscale(0.2) contrast(1.15);
+  background-color: transparent !important;
+}
+
+/* ── Accessibility: Underline Links ────────────────────────────────────────── */
+
+html.underline-links a {
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
