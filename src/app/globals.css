@@ -49,6 +49,7 @@ html.high-contrast a {
   color: #ffff00 !important;
   text-decoration: underline !important;
   background-color: #000 !important;
+  border-color: #fff !important;
 }
 
 html.high-contrast button:not([role="switch"]) {

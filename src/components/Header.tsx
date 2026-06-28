@@ -79,7 +79,7 @@ export default function Header() {
 
             <Link
               href="/zacznij-dzis"
-              className="hidden md:inline-flex items-center px-4 py-2 rounded-lg bg-green-700 dark:bg-green-600 text-white text-sm font-semibold hover:bg-green-800 dark:hover:bg-green-700 transition-colors"
+              className="hidden md:inline-flex items-center px-4 py-2 rounded-lg border border-transparent bg-green-700 dark:bg-green-600 text-white text-sm font-semibold hover:bg-green-800 dark:hover:bg-green-700 transition-colors"
             >
               Zacznij dziś
             </Link>
@@ -131,7 +131,7 @@ export default function Header() {
             ))}
             <Link
               href="/zacznij-dzis"
-              className="mt-2 px-4 py-2.5 rounded-lg bg-green-700 text-white text-sm font-semibold text-center hover:bg-green-800 transition-colors"
+              className="mt-2 px-4 py-2.5 rounded-lg border border-transparent bg-green-700 text-white text-sm font-semibold text-center hover:bg-green-800 transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               Zacznij dziś
