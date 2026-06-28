@@ -48,6 +48,7 @@ html.high-contrast :is(p, h1, h2, h3, h4, h5, h6, li, td, th, span, label, time,
 html.high-contrast a {
   color: #ffff00 !important;
   text-decoration: underline !important;
+  background-color: #000 !important;
 }
 
 html.high-contrast button:not([role="switch"]) {
