@@ -9,6 +9,43 @@ interface Props {
   label?: string;
 }
 
+// Chrome silently cuts off long utterances — split at sentence boundaries
+function splitIntoChunks(text: string, maxLen = 250): string[] {
+  const chunks: string[] = [];
+  let remaining = text.trim();
+  while (remaining.length > maxLen) {
+    let cut = remaining.lastIndexOf(". ", maxLen);
+    if (cut === -1) cut = remaining.lastIndexOf(" ", maxLen);
+    if (cut === -1) cut = maxLen;
+    else cut += 1;
+    chunks.push(remaining.slice(0, cut).trim());
+    remaining = remaining.slice(cut).trim();
+  }
+  if (remaining) chunks.push(remaining);
+  return chunks;
+}
+
+function speakNext(
+  chunks: string[],
+  index: number,
+  utteranceRef: React.MutableRefObject<SpeechSynthesisUtterance | null>,
+  onDone: () => void
+) {
+  if (index >= chunks.length) {
+    onDone();
+    return;
+  }
+  const utt = new SpeechSynthesisUtterance(chunks[index]);
+  utt.lang = "pl-PL";
+  utt.rate = 0.95;
+  utt.onend = () => speakNext(chunks, index + 1, utteranceRef, onDone);
+  utt.onerror = (e) => {
+    if ((e as SpeechSynthesisErrorEvent).error !== "interrupted") onDone();
+  };
+  utteranceRef.current = utt;
+  window.speechSynthesis.speak(utt);
+}
+
 export default function TextToSpeech({
   text,
   label = "Odsłuchaj artykuł",
@@ -21,7 +58,6 @@ export default function TextToSpeech({
     setSupported("speechSynthesis" in window);
   }, []);
 
-  // Cancel speech when component unmounts (page navigation)
   useEffect(() => {
     return () => {
       window.speechSynthesis?.cancel();
@@ -32,15 +68,8 @@ export default function TextToSpeech({
 
   function speak() {
     window.speechSynthesis.cancel();
-
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "pl-PL";
-    utterance.rate = 0.95;
-    utterance.onend = () => setTtsState("idle");
-    utterance.onerror = () => setTtsState("idle");
-
-    utteranceRef.current = utterance;
-    window.speechSynthesis.speak(utterance);
+    const chunks = splitIntoChunks(text);
+    speakNext(chunks, 0, utteranceRef, () => setTtsState("idle"));
     setTtsState("playing");
   }
 
@@ -93,7 +122,6 @@ export default function TextToSpeech({
       role="group"
       aria-label="Kontrolki odtwarzania"
     >
-      {/* Animated bars — visible only when playing */}
       {ttsState === "playing" && (
         <span aria-hidden="true" className="flex items-end gap-0.5 h-4">
           {[10, 16, 12].map((h, i) => (
@@ -106,7 +134,6 @@ export default function TextToSpeech({
         </span>
       )}
 
-      {/* Pause / Resume */}
       {ttsState === "playing" ? (
         <button
           type="button"
@@ -114,13 +141,7 @@ export default function TextToSpeech({
           aria-label="Wstrzymaj odtwarzanie"
           className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-green-200 dark:border-green-800 text-sm font-medium text-green-800 dark:text-green-300 bg-green-50 dark:bg-green-950/30 hover:bg-green-100 dark:hover:bg-green-950/50 transition-colors"
         >
-          <svg
-            aria-hidden="true"
-            focusable="false"
-            className="w-4 h-4 flex-shrink-0"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
+          <svg aria-hidden="true" focusable="false" className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
             <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
           </svg>
           Pauza
@@ -132,33 +153,20 @@ export default function TextToSpeech({
           aria-label="Wznów odtwarzanie"
           className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-green-200 dark:border-green-800 text-sm font-medium text-green-800 dark:text-green-300 bg-green-50 dark:bg-green-950/30 hover:bg-green-100 dark:hover:bg-green-950/50 transition-colors"
         >
-          <svg
-            aria-hidden="true"
-            focusable="false"
-            className="w-4 h-4 flex-shrink-0"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
+          <svg aria-hidden="true" focusable="false" className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
             <path d="M8 5v14l11-7z" />
           </svg>
           Wznów
         </button>
       )}
 
-      {/* Stop */}
       <button
         type="button"
         onClick={stop}
         aria-label="Zatrzymaj odtwarzanie"
         className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-gray-700 text-sm font-medium text-gray-600 dark:text-gray-400 bg-white dark:bg-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
       >
-        <svg
-          aria-hidden="true"
-          focusable="false"
-          className="w-4 h-4 flex-shrink-0"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-        >
+        <svg aria-hidden="true" focusable="false" className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
           <path d="M6 6h12v12H6z" />
         </svg>
         Stop
